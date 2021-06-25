@@ -2,7 +2,7 @@
 
 ## Tải kho chứa về
 
-Để cài đặt kho lưu trữ và chạy các Jupyter Notebook trên máy tính của bạn, trước tiên bạn sẽ cần `git`, có thể bạn đã có sắn. Mở một trình Terminal và nhập `git` để kiểm tra. 
+Để cài đặt kho lưu trữ và chạy các Jupyter Notebook trên máy tính của bạn, trước tiên bạn sẽ cần `git`, có thể bạn đã có sẵn. Mở một trình Terminal và nhập `git` để kiểm tra. 
 Nếu bạn không có `git`, bạn có thể tải xuống từ [git-scm.com](https://git-scm.com/).
 
 Tiếp theo, sao chép kho lưu trữ này bằng cách mở một trình Terminal và nhập các lệnh sau 

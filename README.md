@@ -11,7 +11,7 @@ Bạn có thể sử dụng bất kỳ dịch vụ nào sau đây (Chúng tôi �
 
 | Google Colab | Kaggle | Binder | Deepnote |
 |---|---|---|---|
-| <a href="https://colab.research.google.com/github/mlbvn/handson-ml2-vn/blob/main/" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://homl.info/kaggle/"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a> | <a href="https://mybinder.org/v2/gh/mlbvn/handson-ml2-vn/HEAD?filepath=%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Launch binder" /></a> | <a href="https://homl.info/deepnote/"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Launch in Deepnote" /></a> |
+| <a href="https://colab.research.google.com/github/mlbvn/handson-ml2-vn/blob/main/" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://git.io/JnA16"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a> | <a href="https://mybinder.org/v2/gh/mlbvn/handson-ml2-vn/HEAD?filepath=%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Launch binder" /></a> | <a href="https://git.io/JnA1S"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Launch in Deepnote" /></a> |
 
 ### Xem nhanh & Không thực hành
 

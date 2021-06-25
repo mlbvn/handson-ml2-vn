@@ -1,4 +1,4 @@
-# Thực hành Học Máy
+![](.github/assets/cover.jpg)
 
 Dự án này mục tiêu là dạy cho bạn các kiến thức nền tảng về Học Máy trong Python. Kho chứa gồm ví dụ và lời giải cho các bài tập trong cuốn sách **Thực hành Học Máy với Scikit-Learn, Keras & TensorFlow** của tác giả Aurélien Géron (ấn bản gốc được xuất bản bởi [O'Reilly](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)).
 

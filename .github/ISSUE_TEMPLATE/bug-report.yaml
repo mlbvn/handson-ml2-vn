@@ -17,7 +17,7 @@ body:
     id: bug-info
     attributes:
       label: Mô tả lỗi
-      description: Vui lòng cung cấp mô tả rõ ràng và ngắn gọn về lỗi, đồng thời nêu rõ tên Jupyter Notebooks và số ô gặp sự cố (hoặc chương và trang trong sách).
+      description: Vui lòng mô tả rõ ràng và ngắn gọn về lỗi, đồng thời nêu rõ tên Jupyter Notebooks và số ô gặp sự cố (hoặc chương và trang trong sách).
     validations:
       required: true
   - type: textarea
@@ -34,10 +34,6 @@ body:
       label: Tái hiện lỗi
       description: Nếu bạn có exception, vui lòng sao chép toàn bộ stacktrace vào đây
       render: shell
-  - type: markdown
-    attributes:
-      value: |
-        Các phiên bản (Vui lòng điền đầy đủ thông tin)
   - type: input
     id: os
     attributes:

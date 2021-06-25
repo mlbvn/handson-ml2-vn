@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Không phải Vấn đề
+    url: https://github.com/mlbvn/handson-ml2-vn/discussions/new
+    about: Điều bạn phản hồi không phải vấn đề cần giải quyết? Vui lòng tạo một thảo luận nhé.

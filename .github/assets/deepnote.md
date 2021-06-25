@@ -1,5 +1,5 @@
 # Jupyter Notebooks cho Học Máy
-*Chào mừng bạn đọc đang xem qua Jupyter Notebooks cho Học Máy!*
+*Chào mừng độc giả đang xem qua Jupyter Notebooks cho Học Máy!*
 
 ## Những Jupyter Notebooks
 

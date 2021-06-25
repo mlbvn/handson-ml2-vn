@@ -1,8 +1,6 @@
 # Jupyter Notebooks cho Học Máy
 *Chào mừng bạn đọc đang xem qua Jupyter Notebooks cho Học Máy!*
 
-[Kiến thức nền cần thiết](#Kiến thức nền cần thiết) (vui lòng xem bên dưới)
-
 ## Những Jupyter Notebooks
 
 ### Tập 1 - Nền tảng Kiến thức về Học Máy (Chuẩn bị Phát hành)

@@ -69,7 +69,7 @@ Mời bạn xem qua [hướng dẫn cài đặt chi tiết](install.md) để bi
 ## Lời cảm ơn
 Để hoàn thành dự án này, chúng tôi xin gửi lời cảm ơn đến [**O'Reilly**](https://www.oreilly.com/) & tác giả [**Aurélien Géron**](https://github.com/ageron) đã đồng ý cho chúng tôi được thực hiện chuyển ngữ và giúp đỡ chúng tôi trong suốt quá trình hoàn thiện cuốn sách.
 
-Chúng tôi cũng gửi lời cảm ơn đến các [thành viên trực tiếp tham gia]() vào dự án này, nếu không có sự nỗ lực và trách nhiệm của từng cá nhân thì dự án khó có thể đảm bảo được thời gian và chất lượng cho cuốn sách.
+Chúng tôi cũng gửi lời cảm ơn đến các [thành viên trực tiếp tham gia](.github/members.md) vào dự án này, nếu không có sự nỗ lực và trách nhiệm của từng cá nhân thì dự án khó có thể đảm bảo được thời gian và chất lượng cho cuốn sách.
 
 Và chúng tôi cũng không quên gửi lời cảm ơn chân thành đến [**Đại học FUNiX**](https://funix.edu.vn/) đã hỗ trợ chúng rất nhiều trong các vấn đề xuất bản và còn hơn thế nữa.
 
@@ -77,7 +77,7 @@ Những lời cảm ơn khác xin dành cho những Cộng tác viên đã giúp
 
 Cuối cùng, chúng tôi cảm ơn những độc giả đã và đang tin tưởng, tín nhiệm và ủng hộ những cuốn sách mà nhóm đã thực hiện. Thiếu những ủng hộ này, những cuốn sách này khó có thể được lan truyền và giúp đỡ được nhiều người hơn.
 
-## Maintainers
+## Maintainer
 
 Đoàn Võ Duy Thanh [@duythanhvn](https://github.com/duythanhvn)
 

@@ -1,7 +1,7 @@
 name: Thông báo Lỗi
 description: Tạo một báo cáo để cải thiện chất lượng dự án
 title: "[Bug]: "
-labels: [bug, triage]
+labels: [internal: bug, ]
 assignees:
   - duythanhvn
 body:

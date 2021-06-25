@@ -1,14 +1,16 @@
-name: Bug Report
-description: File a bug report
+name: Thông báo Lỗi
+description: Tạo một báo cáo để cải thiện chất lượng dự án
 title: "[Bug]: "
 labels: [bug, triage]
 assignees:
-  - octocat
+  - duythanhvn
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Cảm ơn bạn đã dành thời gian giúp chúng tôi cải thiện chất lượng dự án này!
+        
+        Trước khi bạn tạo một Issue, vui lòng đảm bảo rằng bạn đã sử dụng phiên bản mới nhất của mã nguồn dự án cũng như thư viện đã cài đặt. Vui lòng xem thêm [tại đây](https://github.com/mlbvn/handson-ml2-vn/blob/main/install.md#c%E1%BA%ADp-nh%E1%BA%ADt-d%E1%BB%B1-%C3%A1n--c%C3%A1c-th%C6%B0-vi%E1%BB%87n-c%E1%BB%A7a-n%C3%B3).
   - type: input
     id: contact
     attributes:

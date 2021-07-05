@@ -22,7 +22,7 @@
 5. [Thị giác Máy tính Sâu sử dụng Mạng Nơ-ron Tích chập](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/14_deep_computer_vision_with_cnns.ipynb)
 6. [Xử lý Chuỗi sử dụng RNN và CNN](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/15_processing_sequences_using_rnns_and_cnns.ipynb)
 7. [Xử lý Ngôn ngữ Tự nhiên với RNN và Cơ chế Tập trung](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/16_nlp_with_rnns_and_attention.ipynb)
-8. [Học biểu diễn và Học Generative sử dụng Bộ tự Mã hóa và GAN](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/17_autoencoders_and_gans.ipynb)
+8. [Học biểu diễn và Mạng Sinh sử dụng Bộ tự Mã hóa và GAN](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/17_autoencoders_and_gans.ipynb)
 9. [Học tăng cường](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/18_reinforcement_learning.ipynb)
 10. [Huấn luyện và Triển khai Mô hình TensorFlow có Quy mô](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/19_training_and_deploying_at_scale.ipynb)
 

@@ -42,7 +42,7 @@ Cuối cùng, khởi động Jupyter:
 
     $ jupyter notebook
 
-Nếu bạn cần thêm hướng dẫn, vui lòng đọc [hướng dẫn cài đặt chi tiết](install.md) để biết thêm thông tin.
+Nếu bạn cần thêm hướng dẫn, vui lòng đọc [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 ## Câu hỏi Thường gặp (FAQ)
 
@@ -60,11 +60,11 @@ Bạn có thể cần phải cài đặt chứng chỉ SSL (xem câu hỏi này 
 
 **Tôi đã cài đặt dự án trên máy tính, làm cách nào để cập nhật nó lên phiên bản mới nhất?**
 
-Mời bạn xem qua [hướng dẫn cài đặt chi tiết](install.md) để biết thêm thông tin.
+Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 **Làm cách nào để cập nhật thư viện Python của tôi lên phiên bản mới nhất khi sử dụng Anaconda?**
 
-Mời bạn xem qua [hướng dẫn cài đặt chi tiết](install.md) để biết thêm thông tin.
+Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 <!--
 ## Lời cảm ơn

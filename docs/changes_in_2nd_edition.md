@@ -1,4 +1,4 @@
-# Những Thay đổi trong Tái bản thứ Nhất
+# Những Thay đổi trong lần Tái bản thứ Nhất
 Ở lần tái bản này có sáu mục tiêu chính:
 
 1. Các chủ đề Học Máy bổ sung: các kỹ thuật học tập không giám sát 
@@ -39,3 +39,51 @@ Bảng sau đây sẽ ánh xạ các thay đổi giữa ấn bản đầu tiên 
 |15|17|~75%|Bộ tự Mã hóa và GAN
 |16|18|~75%|Học tăng cường
 |Một phần chương 12|19|Mới ~75%|Sản xuất Mô hình TensorFlow
+
+Một cách cụ thể, dưới đây sẽ là những thay đổi chính trong nội dung tái bản lần thứ nhất
+(ngoài việc làm rõ, chỉnh sửa, và cập nhật mã lập trình):
+
+* Chương 1 – Toàn cảnh Học Máy
+  * Đã thêm nhiều ví dụ hơn về những ứng dụng Học Máy và các thuật toán tương ứng.
+  * Bổ sung một phần nội dung về cách xử lý sự không khớp giữa tập huấn luyện và tập xác thực & kiểm tra.
+* Chương 2 – Dự án Học Máy từ Đầu tới Cuối
+  * Bổ sung cách để tính khoảng tin cậy.
+  * Cải thiện hướng dẫn cài đặt (VD: dành cho Windows).
+  * Giới thiệu `OneHotEncoder` được nâng cấp và hàm mới là `ColumnTransformer`.
+  * Bổ sung chi tiết về triển khai, giám sát, và bảo trì.
+* Chương 4 – Huấn luyện Mô Hình
+  * Giải thích sự cần thiết của những mẫu huấn luyện cần độc lập và Phân phối Đồng nhất (IID).
+* Chương 7 – Học Ensemble và Rừng Ngẫu nhiên
+  * Bổ sung một phần ngắn nói về XGBoost.
+* Chương 9 – Các kỹ thuật Học Không giám sát (chương mới)
+  * Phân cụm với K-Means, cách chọn số lượng cụm, cách sử dụng nó để giảm chiều, học bán giám sát, phân đoạn hình ảnh, v.v.
+  * Thuật toán phân cụm DBSCAN và tổng quan về những thuật toán phân cụm khác có sẵn trong Scikit-Learn.
+  * Mô hình hỗn hợp Gauss, thuật toán Kỳ vọng–Cực đại hóa (EM), suy luận biến phân Bayes, 
+  và cách các mô hình hỗn hợp có thể được sử dụng trong phân cụm, ước tính mật độ, phát hiện bất thường và tính mới.
+  * Tổng quan về những thuật toán phát hiện bất thường và tính mới.
+
+
+## Chuyển đổi từ TensorFlow 1 sang TensorFlow 2
+Việc chuyển đổi từ TensorFlow 1.x sang TensorFlow 2.0 cũng tương tự như việc chuyển đổi từ Python 2 sang Python 3 vậy.
+Điều đầu tiên cần làm là... thở. Đừng vội vàng.
+TensorFlow 1.x sẽ xuất hiện trong một thời gian, và bạn có thời gian.
+
+* Bạn nên bắt đầu bằng cách nâng cấp lên phiên bản TensorFlow 1.x cuối cùng (có thể sẽ là 1.15 vào thời điểm bạn đọc bài này).
+* Chuyển đổi càng nhiều mã nguồn của bạn sang sử dụng các API cấp cao, `tf.keras` hoặc Estimators API càng tốt. 
+Estimators API vẫn sẽ hoạt động trong TensorFlow 2, nhưng chúng tôi gợi ý bạn nên sử dụng Keras từ bây giờ, 
+nhóm phát triển TensorFlow đã thông báo rằng Keras sẽ được ưu tiên hơn và có nhiều khả năng họ sẽ nỗ lực nhiều hơn 
+để cải thiện Keras API. Chúng tôi cũng gợi ý bạn sử dụng các tầng tiền xử lý của Keras (xem chương 4, tập 2) hơn là `tf.feature_columns`.
+* Việc chuyển đổi cũng sẽ đơn giản hơn khi mã nguồn của bạn chỉ sử dụng các API cấp cao, 
+vì nó sẽ hoạt động theo cùng một cách trong bản phát hành mới nhất của TensorFlow 1.x và trong cả TensorFlow 2.
+* Bạn nên loại bỏ mọi cách sử dụng `tf.contrib` vì nó không còn khả dụng trong TensorFlow 2.
+Một số phần của nó đã được chuyển sang nhóm API lõi, những phần khác được chuyển đến các dự án riêng biệt, 
+một số phần không được duy trì nên chúng sẽ bị xóa đi. Nếu cần, bạn phải cài đặt những thư viện thích hợp hoặc sao chép
+một số mã kế thừa `tf.contrib` vào dự án của riêng bạn (như một phương án cuối cùng).
+* Viết càng nhiều thử nghiệm càng tốt, nó sẽ giúp việc chuyển đổi dễ dàng và an toàn hơn.
+* Bạn có thể chạy mã lập trình của TensorFlow 1.x trong TensorFlow 2.0 bằng cách khởi động chương trình của mình
+với `import tensorflow.compat.v1 as tf` và `tf.disable_v2_behavior()`.
+* Khi bạn đã sẵn sàng thực hiện bước nhảy (như một bước chuyển đổi, nâng cấp), 
+bạn có thể chạy [tập lệnh nâng cấp](https://www.tensorflow.org/beta/guide/upgrade) `tf_upgrade_v2`.
+
+Để biết thêm thông tin chi tiết về bước chuyển này, 
+hãy xem [Hướng dẫn chuyển đổi](https://www.tensorflow.org/beta/guide/migration_guide) từ TensorFlow.

@@ -41,8 +41,10 @@ Bảng sau đây sẽ ánh xạ các thay đổi giữa ấn bản đầu tiên 
 |Một phần chương 12|19|10, tập 2|Mới ~75%|Sản xuất Mô hình TensorFlow
 
 Một cách cụ thể, dưới đây sẽ là những thay đổi chính trong nội dung tái bản lần thứ nhất
-(ngoài việc làm rõ, chỉnh sửa, và cập nhật mã lập trình):
+(ngoài việc làm rõ, chỉnh sửa, và cập nhật mã lập trình).
+Lưu ý, nội dung sẽ được sắp xếp theo cách mà bản tiếng Việt sẽ triển khai.
 
+### Tập 1
 * Chương 1 – Toàn cảnh Học Máy
   * Đã thêm nhiều ví dụ hơn về những ứng dụng Học Máy và các thuật toán tương ứng.
   * Bổ sung một phần nội dung về cách xử lý sự không khớp giữa tập huấn luyện và tập xác thực & kiểm tra.
@@ -61,7 +63,8 @@ Một cách cụ thể, dưới đây sẽ là những thay đổi chính trong 
   * Mô hình hỗn hợp Gauss, thuật toán Kỳ vọng–Cực đại hóa (EM), suy luận biến phân Bayes, 
   và cách các mô hình hỗn hợp có thể được sử dụng trong phân cụm, ước tính mật độ, phát hiện bất thường và tính mới.
   * Tổng quan về những thuật toán phát hiện bất thường và tính mới.
-
+### Tập 2
+Đang cập nhật...
 
 ## Chuyển đổi từ TensorFlow 1 sang TensorFlow 2
 Việc chuyển đổi từ TensorFlow 1.x sang TensorFlow 2.0 cũng tương tự như việc chuyển đổi từ Python 2 sang Python 3 vậy.

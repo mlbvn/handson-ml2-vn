@@ -18,27 +18,27 @@ triển khai TensorFlow (gọi là tf.keras) bất cứ khi nào có thể, đ�
 Một số chương đã được thêm vào, những chương khác được viết lại và một vài chương đã được sắp xếp lại thứ tự.
 Bảng sau đây sẽ ánh xạ các thay đổi giữa ấn bản đầu tiên và tái bản lần thứ nhất:
 
-| Ấn bản đầu tiên  | Tái bản lần thứ nhất | % thay đổi | Tiêu đề của lần tái bản
-|--|--|--|--|
-|1|1|<10%|Toàn cảnh Học Máy
-|2|2|<10%|Dự án Học Máy từ Đầu tới Cuối
-|3|3|<10%|Bài toán Phân loại
-|4|4|<10%|Huấn luyện Mô Hình
-|5|5|<10%|Máy Vector Hỗ trợ
-|6|6|<10%|Cây Quyết định
-|7|7|<10%|Học Ensemble và Rừng Ngẫu nhiên
-|8|8|<10%|Giảm Chiều
-|Không|9|Mới 100%|Các kỹ thuật Học Không giám sát
-|10|10|~75%|Giới thiệu về Mạng Nơ-ron Nhân tạo với Keras
-|11|11|~50%|Huấn luyện các Mạng Nơ-ron Sâu
-|9|12|Viết lại 100%|Mô hình tùy chỉnh & Huấn luyện với TensorFlow
-|Một phần chương 12|13|Viết lại 100%|Tải và Tiền xử lý Dữ liệu với TensorFlow
-|13|14|~50%|Thị giác Máy tính Sâu sử dụng Mạng Nơ-ron Tích chập
-|Một phần chương 14|15|~75%|Xử lý Chuỗi sử dụng RNN và CNN
-|Một phần chương 14|16|~90%|Xử lý Ngôn ngữ Tự nhiên với RNN và Cơ chế Tập trung
-|15|17|~75%|Bộ tự Mã hóa và GAN
-|16|18|~75%|Học tăng cường
-|Một phần chương 12|19|Mới ~75%|Sản xuất Mô hình TensorFlow
+| Ấn bản đầu tiên  | Tái bản lần thứ nhất | Ánh xạ bản tiếng Việt | % thay đổi | Tiêu đề của lần tái bản
+|--|--|--|--|--|
+|1|1|1, tập 1|<10%|Toàn cảnh Học Máy
+|2|2|2, tập 1|<10%|Dự án Học Máy từ Đầu tới Cuối
+|3|3|3, tập 1|<10%|Bài toán Phân loại
+|4|4|4, tập 1|<10%|Huấn luyện Mô Hình
+|5|5|5, tập 1|<10%|Máy Vector Hỗ trợ
+|6|6|6, tập 1|<10%|Cây Quyết định
+|7|7|7, tập 1|<10%|Học Ensemble và Rừng Ngẫu nhiên
+|8|8|8, tập 1|<10%|Giảm Chiều
+|Không|9|9, tập 1|Mới 100%|Các kỹ thuật Học Không giám sát
+|10|10|1, tập 2|~75%|Giới thiệu về Mạng Nơ-ron Nhân tạo với Keras
+|11|11|2, tập 2|~50%|Huấn luyện các Mạng Nơ-ron Sâu
+|9|12|3, tập 2|Viết lại 100%|Mô hình tùy chỉnh & Huấn luyện với TensorFlow
+|Một phần chương 12|13|4, tập 2|Viết lại 100%|Tải và Tiền xử lý Dữ liệu với TensorFlow
+|13|14|5, tập 2|~50%|Thị giác Máy tính Sâu sử dụng Mạng Nơ-ron Tích chập
+|Một phần chương 14|15|6, tập 2|~75%|Xử lý Chuỗi sử dụng RNN và CNN
+|Một phần chương 14|16|7, tập 2|~90%|Xử lý Ngôn ngữ Tự nhiên với RNN và Cơ chế Tập trung
+|15|17|8, tập 2|~75%|Bộ tự Mã hóa và GAN
+|16|18|9, tập 2|~75%|Học tăng cường
+|Một phần chương 12|19|10, tập 2|Mới ~75%|Sản xuất Mô hình TensorFlow
 
 Một cách cụ thể, dưới đây sẽ là những thay đổi chính trong nội dung tái bản lần thứ nhất
 (ngoài việc làm rõ, chỉnh sửa, và cập nhật mã lập trình):

@@ -11,7 +11,7 @@ Bạn có thể sử dụng bất kỳ dịch vụ nào sau đây (Chúng tôi �
 
 | Google Colab | Kaggle | Binder | Deepnote |
 |---|---|---|---|
-| <a href="https://colab.research.google.com/github/mlbvn/handson-ml2-vn/blob/main/" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://git.io/JnA16"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a> | <a href="https://mybinder.org/v2/gh/mlbvn/handson-ml2-vn/HEAD?filepath=%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Launch binder" /></a> | <a href="https://git.io/JnA1S"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Launch in Deepnote" /></a> |
+| <a href="https://colab.research.google.com/github/mlbvn/handson-ml2-vn/blob/main/" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://git.io/Jc6Ge"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a> | <a href="https://mybinder.org/v2/gh/mlbvn/handson-ml2-vn/HEAD?filepath=%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Launch binder" /></a> | <a href="https://git.io/Jc6sF"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Launch in Deepnote" /></a> |
 
 ### Xem nhanh & Không thực hành
 
@@ -42,7 +42,7 @@ Cuối cùng, khởi động Jupyter:
 
     $ jupyter notebook
 
-Nếu bạn cần thêm hướng dẫn, vui lòng đọc [hướng dẫn cài đặt chi tiết](install.md) để biết thêm thông tin.
+Nếu bạn cần thêm hướng dẫn, vui lòng đọc [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 ## Câu hỏi Thường gặp (FAQ)
 
@@ -60,22 +60,23 @@ Bạn có thể cần phải cài đặt chứng chỉ SSL (xem câu hỏi này 
 
 **Tôi đã cài đặt dự án trên máy tính, làm cách nào để cập nhật nó lên phiên bản mới nhất?**
 
-Mời bạn xem qua [hướng dẫn cài đặt chi tiết](install.md) để biết thêm thông tin.
+Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 **Làm cách nào để cập nhật thư viện Python của tôi lên phiên bản mới nhất khi sử dụng Anaconda?**
 
-Mời bạn xem qua [hướng dẫn cài đặt chi tiết](install.md) để biết thêm thông tin.
+Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
+<!--
 ## Lời cảm ơn
 Để hoàn thành dự án này, chúng tôi xin gửi lời cảm ơn đến [**O'Reilly**](https://www.oreilly.com/) & tác giả [**Aurélien Géron**](https://github.com/ageron) đã đồng ý cho chúng tôi được thực hiện chuyển ngữ và giúp đỡ chúng tôi trong suốt quá trình hoàn thiện cuốn sách.
 
-Chúng tôi cũng gửi lời cảm ơn đến các [thành viên trực tiếp tham gia](.github/team.md) vào dự án này, nếu không có sự nỗ lực và trách nhiệm của từng cá nhân thì dự án khó có thể đảm bảo được thời gian và chất lượng cho cuốn sách.
+Chúng tôi gửi lời cảm ơn đến các [thành viên trực tiếp tham gia](.github/assets/team.md) vào dự án này, nếu không có sự nỗ lực và trách nhiệm của từng cá nhân thì dự án khó có thể đảm bảo được thời gian và chất lượng cho cuốn sách.
 
-Và chúng tôi cũng không quên gửi lời cảm ơn chân thành đến [**Đại học FUNiX**](https://funix.edu.vn/) đã hỗ trợ chúng rất nhiều trong các vấn đề xuất bản và còn hơn thế nữa.
+Và chúng tôi cũng không quên gửi lời cảm ơn chân thành đến [**Đại học FUNiX**](https://funix.edu.vn/) đã hỗ trợ chúng rất nhiều trong các vấn đề xuất bản và còn hơn thế nữa. Đặc biệt xin gửi lời cảm ơn đến NXB Bách Khoa Hà Nội đã cùng tinh thần với nhóm dịch thuật, đồng thời hỗ trợ nhóm rất nhiều để cuốn sách này có thể đến tay nhiều độc giả hơn.
 
 Những lời cảm ơn khác xin dành cho những Cộng tác viên đã giúp đỡ cho tác giả để dự án gốc có thể trở nên tốt hơn, có thể xem **[tại đây](https://github.com/ageron/handson-ml2/graphs/contributors)**.
 
-Cuối cùng, chúng tôi cảm ơn những độc giả đã và đang tin tưởng, tín nhiệm và ủng hộ những cuốn sách mà nhóm đã thực hiện. Thiếu những ủng hộ này, những cuốn sách này khó có thể được lan truyền và giúp đỡ được nhiều người hơn.
+Cuối cùng, chúng tôi cảm ơn những độc giả đã và đang tin tưởng, tín nhiệm và ủng hộ những cuốn sách mà nhóm đã thực hiện. Thiếu những ủng hộ này, những cuốn sách này khó có thể được lan truyền và giúp đỡ được nhiều người hơn.-->
 
 ## Maintainer
 

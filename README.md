@@ -52,6 +52,9 @@ Cuối cùng, khởi động Jupyter:
 
 Nếu bạn cần thêm hướng dẫn, vui lòng đọc [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
+### Bảng thuật ngữ
+Các thuật ngữ trong cuốn sách được bổ sung và thảo luận [tại đây](./docs/glossary.md).
+
 ## Câu hỏi Thường gặp (FAQ)
 
 **Tôi nên sử dụng phiên bản Python nào?**

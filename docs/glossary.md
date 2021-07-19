@@ -1,9 +1,6 @@
 # Bảng thuật ngữ
 
-[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g)
-[H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n)
-[O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u)
-[V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
+Để truy cập theo thứ tự bảng chữ cái, bạn có thể sử dụng tính năng Mục lục của Github.
 
 ### A
 | English | Tiếng Việt | Thảo luận tại
@@ -31,7 +28,6 @@
 | autoregressive | tự hồi quy |
 | average pooling | gộp trung bình | https://git.io/JfGi6
 | avoidable bias | độ chệch tránh được |
-[Back to TOP](#)
 
 ### B
 | English | Tiếng Việt | Thảo luận tại
@@ -61,7 +57,6 @@
 | bounding box | khung chứa | https://git.io/JvQxs
 | broadcast | lan truyền | https://git.io/Jvoj3
 | bus | bus |
-[Back to TOP](#)
 
 ### C
 | English | Tiếng Việt | Thảo luận tại
@@ -115,7 +110,6 @@
 | cross correlation | tương quan chéo |
 | cross entropy | entropy chéo |
 | cross validation | kiểm định chéo |
-[Back to TOP](#)
 
 ### D
 | English | Tiếng Việt | Thảo luận tại
@@ -149,7 +143,6 @@
 | downstream task | tác vụ xuôi dòng | https://git.io/JUtED
 | dot product | tích vô hướng (hoặc tích trong) | https://git.io/JvKem
 | dropout | dropout |
-[Back to TOP](#)
 
 ### E
 | English | Tiếng Việt | Thảo luận tại
@@ -182,7 +175,6 @@
 | expression (in math) | biểu thức (toán học) | https://git.io/Jvojk
 | eyeball dev set | tập phát triển eyeball | https://git.io/JvQx3
 | exponential weighted moving average | trung bình động trọng số mũ |
-[Back to TOP](#)
 
 ### F
 | English | Tiếng Việt | Thảo luận tại
@@ -209,7 +201,6 @@
 | functional analysis | giải tích hàm |
 | fully-connected | kết nối đầy đủ | https://git.io/JvohR
 | fully convolutional network | mạng tích chập đầy đủ |
-[Back to TOP](#)
 
 ### G
 | English | Tiếng Việt | Thảo luận tại
@@ -235,7 +226,6 @@
 | grid search | tìm kiếm dạng lưới | https://git.io/JtMUD
 | ground truth | nhãn gốc | https://git.io/JvQxl
 | growth rate | tốc độ tăng trưởng |
-[Back to TOP](#)
 
 ### H
 | English | Tiếng Việt | Thảo luận tại
@@ -255,7 +245,6 @@
 | hyperparameter | siêu tham số |
 | hyperplane | siêu phẳng | https://git.io/JvojD
 | hypothesis test | kiểm định giả thuyết | https://git.io/Jvoja
-[Back to TOP](#)
 
 ### I
 | English | Tiếng Việt | Thảo luận tại
@@ -283,13 +272,11 @@
 | intractable | bất khả tính | https://git.io/JOYbu
 | iteration | vòng lặp |
 | iterator | iterator | https://git.io/JvohG
-[Back to TOP](#)
 
 ### J
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | joint distribution | phân phối đồng thời | https://git.io/Jvohb
-[Back to TOP](#)
 
 ### K
 | English | Tiếng Việt | Thảo luận tại
@@ -300,7 +287,6 @@
 | kernel trick | thủ thuật hạt nhân | https://git.io/Jtb7L
 | kernelized SVM | SVM hạt nhân | https://git.io/Jtb7L
 | key | khóa |
-[Back to TOP](#)
 
 ### L
 | English | Tiếng Việt | Thảo luận tại
@@ -338,7 +324,6 @@
 | loss function | hàm mất mát | https://git.io/Jvojp
 | loss landscape | cảnh quan mất mát |
 | loss surface | bề mặt mất mát |
-[Back to TOP](#)
 
 ### M
 | English | Tiếng Việt | Thảo luận tại
@@ -376,7 +361,6 @@
 | multi-head attention layer | tầng tập trung đa đầu |
 | multinominal distribution | phân phối đa thức | https://git.io/JvohQ
 | multitask learning | học đa nhiệm | https://git.io/JvohQ
-[Back to TOP](#)
 
 ### N
 | English | Tiếng Việt | Thảo luận tại
@@ -404,7 +388,6 @@
 | NP-hard | NP-khó | https://git.io/JOYAo
 | null hypothesis | giả thuyết gốc | https://git.io/Jvoj1
 | numerical solution | nghiệm xấp xỉ |
-[Back to TOP](#)
 
 ### O
 | English | Tiếng Việt | Thảo luận tại
@@ -426,7 +409,6 @@
 | outlier | ngoại lai | https://git.io/JqklW
 | overfit | quá khớp | https://git.io/JvQxY
 | overflow (numerical) | tràn (số) trên | https://git.io/JvohC
-[Back to TOP](#)
 
 ### P
 | English | Tiếng Việt | Thảo luận tại
@@ -465,7 +447,6 @@
 | proposed region | vùng đề xuất |
 | proxy (in statistics) | biến đại diện |
 | purity | độ tinh khiết | https://git.io/JqklI
-[Back to TOP](#)
 
 ### Q
 | English | Tiếng Việt | Thảo luận tại
@@ -474,7 +455,6 @@
 | quadratic form | dạng toàn phương | https://git.io/JvohV
 | quadratic programming | quy hoạch toàn phương |
 | query | (câu) truy vấn |
-[Back to TOP](#)
 
 ### R
 | English | Tiếng Việt | Thảo luận tại
@@ -510,7 +490,6 @@
 | robust to noise | kháng nhiễu | https://git.io/JvQA1
 | root mean squared error (RMSE) | căn bậc hai trung bình bình phương sai số | https://git.io/Jvojr
 | running time | thời gian chạy |
-[Back to TOP](#)
 
 ### S
 | English | Tiếng Việt | Thảo luận tại
@@ -570,7 +549,6 @@
 | surrogate objective | mục tiêu thay thế | https://git.io/JvQxV
 | switch | bộ chuyển mạch |
 | symbolic graph | đồ thị biểu tượng | https://git.io/JvojU
-[Back to TOP](#)
 
 ### T
 | English | Tiếng Việt | Thảo luận tại
@@ -608,7 +586,6 @@
 | tune parameters | điều chỉnh tham số |
 | two-sided test | kiểm định hai phía | https://git.io/Jvoja
 | two-tailed test | kiểm định hai đuôi | https://git.io/Jvoja
-[Back to TOP](#)
 
 ### U
 | English | Tiếng Việt | Thảo luận tại
@@ -622,7 +599,6 @@
 | upsample | tăng mẫu | https://git.io/JvohC
 | upstream task | tác vụ ngược dòng | https://git.io/JUtED
 | utility function (in optimization) | hàm ích lợi |
-[Back to TOP](#)
 
 ### V
 | English | Tiếng Việt | Thảo luận tại
@@ -635,7 +611,6 @@
 | vector | vector |
 | vectorization | vector hóa |
 | voting classifier | bộ phân loại biểu quyết | https://git.io/JqklO
-[Back to TOP](#)
 
 ### W
 | English | Tiếng Việt | Thảo luận tại
@@ -646,4 +621,3 @@
 | whitening data | tẩy trắng dữ liệu |
 | worker (in distributed system) | máy thợ |
 | wrapper function (in programming) | hàm wrapper | https://git.io/Jvohm
-[Back to TOP](#)

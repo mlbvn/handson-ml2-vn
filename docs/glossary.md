@@ -5,7 +5,7 @@
 [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u)
 [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
 
-## A
+### A
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | accuracy | độ chính xác |
@@ -33,7 +33,7 @@
 | avoidable bias | độ chệch tránh được |
 [Back to TOP](#)
 
-## B
+### B
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | backend | back-end |
@@ -63,7 +63,7 @@
 | bus | bus |
 [Back to TOP](#)
 
-## C
+### C
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | cache | bộ nhớ đệm |
@@ -117,7 +117,7 @@
 | cross validation | kiểm định chéo |
 [Back to TOP](#)
 
-## D
+### D
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | data | dữ liệu |
@@ -151,7 +151,7 @@
 | dropout | dropout |
 [Back to TOP](#)
 
-## E
+### E
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | early stopping | dừng sớm |
@@ -184,7 +184,7 @@
 | exponential weighted moving average | trung bình động trọng số mũ |
 [Back to TOP](#)
 
-## F
+### F
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | F1 score | chỉ số F1 |
@@ -211,7 +211,7 @@
 | fully convolutional network | mạng tích chập đầy đủ |
 [Back to TOP](#)
 
-## G
+### G
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | Gaussian distribution | phân phối Gauss (phân phối chuẩn) | https://git.io/JvohV
@@ -237,7 +237,7 @@
 | growth rate | tốc độ tăng trưởng |
 [Back to TOP](#)
 
-## H
+### H
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | hand-engineering | thiết kế thủ công |
@@ -257,7 +257,7 @@
 | hypothesis test | kiểm định giả thuyết | https://git.io/Jvoja
 [Back to TOP](#)
 
-## I
+### I
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | inertia (clustering metric) | quán tính | https://git.io/JOYAL
@@ -285,13 +285,13 @@
 | iterator | iterator | https://git.io/JvohG
 [Back to TOP](#)
 
-## J
+### J
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | joint distribution | phân phối đồng thời | https://git.io/Jvohb
 [Back to TOP](#)
 
-## K
+### K
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | k-fold cross validation | kiểm định k-fold | https://git.io/JvQxK
@@ -302,7 +302,7 @@
 | key | khóa |
 [Back to TOP](#)
 
-## L
+### L
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | long short-term Memory (LSTM) | bộ nhớ ngắn hạn dài | https://git.io/JvKeI
@@ -340,7 +340,7 @@
 | loss surface | bề mặt mất mát |
 [Back to TOP](#)
 
-## M
+### M
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | machine learning | học máy |
@@ -378,7 +378,7 @@
 | multitask learning | học đa nhiệm | https://git.io/JvohQ
 [Back to TOP](#)
 
-## N
+### N
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | named entity (recognition) | (nhận dạng) thực thể có tên | https://git.io/JvojG
@@ -406,7 +406,7 @@
 | numerical solution | nghiệm xấp xỉ |
 [Back to TOP](#)
 
-## O
+### O
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | object detection | phát hiện vật thể |
@@ -428,7 +428,7 @@
 | overflow (numerical) | tràn (số) trên | https://git.io/JvohC
 [Back to TOP](#)
 
-## P
+### P
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | p-value | trị số p | https://git.io/Jvoja
@@ -467,7 +467,7 @@
 | purity | độ tinh khiết | https://git.io/JqklI
 [Back to TOP](#)
 
-## Q
+### Q
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | quadratic | toàn phương | https://git.io/JvohV
@@ -476,7 +476,7 @@
 | query | (câu) truy vấn |
 [Back to TOP](#)
 
-## R
+### R
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | random forest | rừng ngẫu nhiên | https://git.io/Jt2wD
@@ -512,7 +512,7 @@
 | running time | thời gian chạy |
 [Back to TOP](#)
 
-## S
+### S
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | sampling with replacement | lấy mẫu có hoàn lại | https://git.io/JvQxu
@@ -572,7 +572,7 @@
 | symbolic graph | đồ thị biểu tượng | https://git.io/JvojU
 [Back to TOP](#)
 
-## T
+### T
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | tail-heavy | nặng đuôi | https://git.io/JtyGx
@@ -610,7 +610,7 @@
 | two-tailed test | kiểm định hai đuôi | https://git.io/Jvoja
 [Back to TOP](#)
 
-## U
+### U
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | unavoidable bias | độ chệch không tránh được |
@@ -624,7 +624,7 @@
 | utility function (in optimization) | hàm ích lợi |
 [Back to TOP](#)
 
-## V
+### V
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | validation set | tập kiểm định | https://git.io/Jvohm
@@ -637,7 +637,7 @@
 | voting classifier | bộ phân loại biểu quyết | https://git.io/JqklO
 [Back to TOP](#)
 
-## W
+### W
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
 | warmup (in learning rate scheduling) | khởi động | https://git.io/JJIT5

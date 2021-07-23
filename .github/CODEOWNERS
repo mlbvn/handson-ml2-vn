@@ -4,6 +4,8 @@
 # Members
 @mlbvn/handson-ml
 
+# Advisors board
+@mlbvn/advisors
+
 # Specific owner
-.github/ @duythanhvn
-docs/ @duythanhvn
+docs/glossary.md @mlbvn/handson-ml

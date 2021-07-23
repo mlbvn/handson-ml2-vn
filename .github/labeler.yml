@@ -1,0 +1,111 @@
+# Configuration for Auto Labeler during pull request
+#
+# See https://github.com/actions/labeler for file format
+# and https://github.com/mlbvn/handson-ml2-vn/labels for a list of valid labels
+#
+# See .github/workflows/label.yml for Github Action workflow script
+
+# label for the machine learning landscape chapter (chapter 01 - book 1)
+chap/ ml landscape:
+  - 01_the_machine_learning_landscape.ipynb
+
+# label for end-to-end machine learning project chapter (chapter 02 - book 1)
+chap/ e2e ml project:
+  - 02_end_to_end_machine_learning_project.ipynb
+
+# label for classification chapter (chapter 03 - book 1)
+chap/classification:
+  - 03_classification.ipynb
+
+# label for training models chapter (chapter 04 - book 1)
+chap/ training models:
+  - 04_training_linear_models.ipynb
+
+# label for support vector machine chapter (chapter 05 - book 1)
+chap/ svm:
+  - 05_support_vector_machines.ipynb
+
+# label for decision trees chapter (chapter 06 - book 1)
+chap/ decision trees:
+  - 06_decision_trees.ipynb
+
+# label for ensemble learning & random forests chapter (chapter 07 - book 1)
+chap/ ensemble learning & random forests:
+  - 07_ensemble_learning_and_random_forests.ipynb
+
+# label for dimensionality reduction chapter (chapter 08 - book 1)
+chap/ dimensionality reduction:
+  - 08_dimensionality_reduction.ipynb
+
+# label for unsupervised learning techniques chapter (chapter 09 - book 1)
+chap/ unsupervised learning techniques:
+  - 09_unsupervised_learning.ipynb
+
+# label for introduction to ann with keras chapter (chapter 01 - book 2)
+chap/ intro to ann with keras:
+  - 10_neural_nets_with_keras.ipynb
+
+# label for training deep neural networks chapter (chapter 02 - book 2)
+chap/ training dnn:
+  - 11_training_deep_neural_networks.ipynb
+
+# label for custom models and training with tensorflow chapter (chapter 03 - book 2)
+chap/ custom models & training with tf:
+  - 12_custom_models_and_training_with_tensorflow.ipynb
+
+# label for loading and preprocessing data with tensorflow chapter (chapter 04 - book 2)
+chap/ loading & preprocessing data with tf:
+  - 13_loading_and_preprocessing_data.ipynb
+
+# label for deep computer vision using convolutional neural networks chapter (chapter 05 - book 2)
+chap/ deep cv using cnn:
+  - 14_deep_computer_vision_with_cnns.ipynb
+
+# label for processing sequences using rnn and cnn chapter (chapter 06 - book 2)
+chap/ processing sequences using rnn & cnn:
+  - 15_processing_sequences_using_rnns_and_cnns.ipynb
+
+# label for nlp with rnn and attention chapter (chapter 07 - book 2)
+chap/ nlp with rnn and attention:
+  - 16_nlp_with_rnns_and_attention.ipynb
+
+# label for representation learning and generative learning using autoencoders and gan chapter (chapter 08 - book 2)
+chap/ rl-gl using autoencoders & gan:
+  - 17_autoencoders_and_gans.ipynb
+
+# label for reinforcement learning chapter (chapter 09 - book 2)
+chap/ reinforcement learning:
+  - 18_reinforcement_learning.ipynb
+
+# label for training & deploying tensorflow models at scale chapter (chapter 10 - book 2)
+chap/ training & deploying tf models at scale:
+  - 19_training_and_deploying_at_scale.ipynb
+
+# label for appendix section
+app/ extra:
+  - extra_autodiff.ipynb
+  - extra_gradient_descent_comparison.ipynb
+
+app/ math:
+  - math_differential_calculus.ipynb
+  - math_linear_algebra.ipynb
+
+app/ tools:
+  - tools_matplotlib.ipynb
+  - tools_numpy.ipynb
+  - tools_pandas.ipynb
+
+# label for internal activities
+internal/ update:
+  - requirements.txt
+  - index.ipynb
+  - environment.yml
+  - apt.txt
+  - README.md
+  - datasets/*
+  - docker/*
+  - images/**/*
+  - docs/*
+
+internal/ terms:
+  - docs/glossary.md

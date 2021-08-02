@@ -2,11 +2,13 @@
 
 ## Tải kho chứa về
 
-Để cài đặt kho lưu trữ và chạy các Jupyter Notebook trên máy tính của bạn, trước tiên bạn sẽ cần `git`, có thể bạn đã có sẵn. Mở một trình Terminal và nhập `git` để kiểm tra. 
+Để cài đặt kho lưu trữ và chạy các Jupyter Notebook trên máy tính của bạn, trước tiên bạn sẽ cần `git`, 
+có thể bạn đã có sẵn. Mở một trình Terminal và nhập `git` để kiểm tra. 
 Nếu bạn không có `git`, bạn có thể tải xuống từ [git-scm.com](https://git-scm.com/).
 
 Tiếp theo, sao chép kho lưu trữ này bằng cách mở một trình Terminal và nhập các lệnh sau 
-(không nhập ký tự `$` đầu tiên trên mỗi dòng, đó chỉ là quy ước để cho thấy rằng đây là dấu nhắc của Terminal, không phải thử gì khác như mã lập trình Python):
+(không nhập ký tự `$` đầu tiên trên mỗi dòng, đó chỉ là quy ước để cho thấy rằng đây là dấu nhắc của 
+Terminal, không phải thử gì khác như mã lập trình Python):
 
     $ cd $HOME  # or any other development directory you prefer
     $ git clone https://github.com/mlbvn/handson-ml2-vn.git
@@ -18,9 +20,12 @@ giải nén nó, đổi tên thư mục đã giải nén thành `handson-ml2-vn`
 ## Cài đặt Anaconda
 
 Tiếp theo, bạn sẽ cần Python 3 và một loại các thư viện Python. 
-Cách đơn giản nhất để cài đặt chúng là [tải xuống và cài đặt Anaconda](https://www.anaconda.com/distribution/), đây là một bản phân phối Python đa nền tảng tuyệt vời cho tính toán khoa học. 
-Anaconda đi kèm với nhiều thư viện khác như: NumPy, Pandas, MatplotLib, Scikit-Learn và nhiều hơn thế; vì vậy nó là một bản cài đặt khá lớn. 
-Nếu bạn thích bản phân phối Anaconda có dung lượng nhẹ hơn, bạn có thể [cài đặt Miniconda](https://docs.conda.io/en/latest/miniconda.html) ở mức tối thiểu để chạy công cụ đóng gói `conda`. 
+Cách đơn giản nhất để cài đặt chúng là [tải xuống và cài đặt Anaconda](https://www.anaconda.com/distribution/), 
+đây là một bản phân phối Python đa nền tảng tuyệt vời cho tính toán khoa học. 
+Anaconda đi kèm với nhiều thư viện khác như: NumPy, Pandas, MatplotLib, Scikit-Learn và nhiều hơn thế; 
+vì vậy nó là một bản cài đặt khá lớn. 
+Nếu bạn thích bản phân phối Anaconda có dung lượng nhẹ hơn, bạn có thể 
+[cài đặt Miniconda](https://docs.conda.io/en/latest/miniconda.html) ở mức tối thiểu để chạy công cụ đóng gói `conda`. 
 Bạn nên cài đặt phiên bản mới nhất của Anaconda (hoặc Miniconda) có sẵn.
 
 Trong quá trình cài đặt trên macOS và Linux, bạn sẽ được hỏi có nên khởi tạo Anaconda bằng cách chạy `conda init` hay không?
@@ -28,13 +33,16 @@ Bạn nên chấp nhận, vì nó sẽ cập nhật tập lệnh shell của b�
 Sau khi cài đặt, bạn phải đóng Terminal và mở lại để các thay đổi có hiệu lực.
 
 Trong quá trình cài đặt trên Windows, bạn sẽ được hỏi có muốn trình cài đặt cập nhật biến môi trường `PATH` hay không?
-Điều này không được khuyến khích vì nó có thể ảnh hưởng đến phần mềm khác. Thay vào đó, sau khi cài đặt, bạn nên mở Start Menu và khởi chạy Anaconda Shell bất cứ khi nào bạn muốn sử dụng Anaconda.
+Điều này không được khuyến khích vì nó có thể ảnh hưởng đến phần mềm khác. Thay vào đó, sau khi cài đặt, bạn nên mở Start Menu 
+và khởi chạy Anaconda Shell bất cứ khi nào bạn muốn sử dụng Anaconda.
 
 Sau khi cài đặt Anaconda (hoặc Miniconda), hãy chạy lệnh sau để cập nhật công cụ đóng gói `conda` ở phiên bản mới nhất:
 
     $ conda update -n base -c defaults conda
 
-> **Lưu ý**: Nếu bạn không thích Anaconda vì một lý do nào đó, bạn có thể cài đặt Python 3 và sử dụng `pip` để cài đặt các thư viện cần thiết theo cách thủ công (điều này không được khuyến khích, trừ khi bạn thật sự biết mình đang làm gì). Tôi khuyên bạn nên sử dụng Python 3.7, vì một số thư viện chưa hỗ trợ Python 3.8 hoặc Python 3.9.
+> **Lưu ý**: Nếu bạn không thích Anaconda vì một lý do nào đó, bạn có thể cài đặt Python 3 và sử dụng `pip` để cài đặt 
+> các thư viện cần thiết theo cách thủ công (điều này không được khuyến khích, trừ khi bạn thật sự biết mình đang làm gì). 
+> Tôi khuyên bạn nên sử dụng Python 3.7, vì một số thư viện chưa hỗ trợ Python 3.8 hoặc Python 3.9.
 
 ## Cài đặt GPU Driver và Các thư viện
 
@@ -75,7 +83,8 @@ Nhấp chọn `index.ipynb` để bắt đầu.
 
 Xin chúc mừng! Bạn đã sẵn sàng để học về Máy Học, hãy cùng thực hành!
 
-Khi bạn hoàn tất việc sử dụng Jupyter, bạn có thể đóng nó bằng cách nhấn tổ hợp phím `Ctrl-C` (đối với Windows) hoặc `Command-C` (đối với macOS) trong cửa sổ Terminal nơi bạn bắt đầu sử dụng.
+Khi bạn hoàn tất việc sử dụng Jupyter, bạn có thể đóng nó bằng cách nhấn tổ hợp phím `Ctrl-C` (đối với Windows) 
+hoặc `Command-C` (đối với macOS) trong cửa sổ Terminal nơi bạn bắt đầu sử dụng.
 Mỗi khi bạn muốn làm việc với dự này, bạn cần phải mở một Terminal ra và chạy những lệnh sau:
 
     $ cd $HOME # or whatever development directory you chose earlier
@@ -85,7 +94,8 @@ Mỗi khi bạn muốn làm việc với dự này, bạn cần phải mở mộ
 
 ## Cập nhật Dự án & Các thư viện của nó
 
-Nhóm Dịch thuật Machine Learning cơ bản sẽ thường xuyên cập nhật những Jupyter Notebooks này theo tác giả nhằm khắc phục sự cố và thêm các hỗ trợ cần thiết cho những thư viện mới.
+Nhóm Dịch thuật Machine Learning cơ bản sẽ thường xuyên cập nhật những Jupyter Notebooks này theo tác giả nhằm khắc phục 
+sự cố và thêm các hỗ trợ cần thiết cho những thư viện mới.
 Vì vậy, hãy chắc chắn rằng bạn cập nhật dự án này thường xuyên.
 
 Để làm việc này, bạn có thể mở Terminal và chạy:

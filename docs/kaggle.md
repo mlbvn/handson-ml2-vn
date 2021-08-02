@@ -24,7 +24,7 @@
 7. [Xử lý Ngôn ngữ Tự nhiên với RNN và Cơ chế Tập trung](https://kaggle.com/kernels/welcome?src=https://github.com/mlbvn/handson-ml2-vn/blob/main/16_nlp_with_rnns_and_attention.ipynb)
 8. [Học biểu diễn và Mạng Sinh sử dụng Bộ tự Mã hóa và GAN](https://kaggle.com/kernels/welcome?src=https://github.com/mlbvn/handson-ml2-vn/blob/main/17_autoencoders_and_gans.ipynb)
 9. [Học tăng cường](https://kaggle.com/kernels/welcome?src=https://github.com/mlbvn/handson-ml2-vn/blob/main/18_reinforcement_learning.ipynb)
-10. [Huấn luyện và Triển khai Mô hình TensorFlow có Quy mô](https://kaggle.com/kernels/welcome?src=https://github.com/mlbvn/handson-ml2-vn/blob/main/19_training_and_deploying_at_scale.ipynb)
+10. [Huấn luyện và Triển khai Mô hình TensorFlow ở Quy mô lớn](https://kaggle.com/kernels/welcome?src=https://github.com/mlbvn/handson-ml2-vn/blob/main/19_training_and_deploying_at_scale.ipynb)
 
 ## Hướng dẫn Python cho Khoa học
 * [NumPy](https://kaggle.com/kernels/welcome?src=https://github.com/mlbvn/handson-ml2-vn/blob/main/tools_numpy.ipynb)
@@ -41,7 +41,7 @@
 ## Tài liệu khác
 * Phương trình (Danh sách các phương trình có trong cuốn sách)
 
-## Kiến thức nền cần thiết
+## Kiến thức cần có
 
 ### Để hiểu
 

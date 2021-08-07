@@ -16,6 +16,7 @@
 | alternative hypothesis | giả thuyết đối | https://git.io/Jvoja
 | analytical solution | nghiệm theo công thức |
 | analogy | loại suy |
+| anomaly detection | phát hiện bất thường | https://git.io/JRZji
 | anchor box | khung neo |
 | approximate inference | suy luận gần đúng |
 | approximate training | huấn luyện gần đúng |
@@ -40,6 +41,7 @@
 | bag of words | túi từ |
 | bagging (ensemble learning) | bagging | https://git.io/JqkWF
 | bandit | máy đánh bạc | https://git.io/Jfe1v
+| baseline (model) | mô hình cơ sở | https://git.io/JRnsf
 | batch | batch | https://git.io/JvojE
 | batch normalization | chuẩn hóa theo batch | https://git.io/Jfe1T
 | batch size | kích thước batch | https://git.io/JvXdK
@@ -136,6 +138,7 @@
 | differentiable | khả vi | https://git.io/JvKee
 | dimension | chiều |
 | dimensionality | kích thước chiều |
+| dimensionality reduction | giảm chiều | https://git.io/JRnIs
 | distributed | phân tán |
 | distribution | phân phối |
 | domain adaptation | thích ứng miền |
@@ -143,6 +146,7 @@
 | downstream task | tác vụ xuôi dòng | https://git.io/JUtED
 | dot product | tích vô hướng (hoặc tích trong) | https://git.io/JvKem
 | dropout | dropout |
+| duality | đối ngẫu | https://git.io/JRnIX
 
 ### E
 | English | Tiếng Việt | Thảo luận tại
@@ -249,7 +253,7 @@
 ### I
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
-| inertia (clustering metric) | quán tính | https://git.io/JOYAL
+| inertia (clustering metric) | inertia | https://git.io/JOYAL
 | inference (in model training and inference) | dự đoán / suy luận | https://git.io/JJVT2
 | (statistical) inference | suy luận (thống kê) | https://git.io/JJVT2
 | ill-conditioned | (có) điều kiện xấu |
@@ -384,6 +388,7 @@
 | normal distribution | phân phối chuẩn (phân phối Gauss) | https://git.io/JvohV
 | normal equation | phương trình pháp tuyến | https://git.io/JtMUN
 | normalize | chuẩn hóa |
+| novelty detection | phát hiện tính mới | https://git.io/JRZji
 | NP-complete | NP-đầy đủ | https://git.io/JOYAo
 | NP-hard | NP-khó | https://git.io/JOYAo
 | null hypothesis | giả thuyết gốc | https://git.io/Jvoj1
@@ -462,6 +467,7 @@
 | random forest | rừng ngẫu nhiên | https://git.io/Jt2wD
 | random search | tìm kiếm ngẫu nhiên | https://git.io/JtMUD
 | random patch | patch ngẫu nhiên | https://git.io/JmbDD
+| random seed | hạt giống ngẫu nhiên | https://git.io/JRnOR
 | random subspace | không gian ngẫu nhiên | https://git.io/JmbDD
 | random variable | biến ngẫu nhiên |
 | recall | recall |
@@ -533,6 +539,7 @@
 | statistical power | năng lực thống kê | https://git.io/Jvoja
 | statistical significance | ý nghĩa thống kê | https://git.io/Jvoj1
 | statistical significant | có ý nghĩa thống kê | https://git.io/Jvoj1
+| step function | hàm bước | https://git.io/JRn3i
 | stick-breaking process | quá trình chia đoạn | https://git.io/JOYA0
 | stochastic gradient descent | hạ gradient ngẫu nhiên |
 | stop word | từ dừng |

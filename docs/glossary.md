@@ -65,6 +65,7 @@
 |---------|------------|---------------
 | cache | bộ nhớ đệm |
 | (strictly) convex function | hàm lồi (chặt) | https://git.io/JvohV
+| callback | callback | https://git.io/J0777
 | candidate hidden state | trạng thái ẩn tiềm năng |
 | candidate memory | ô nhớ tiềm năng |
 | categorical variable | biến hạng mục | https://git.io/JfeXx
@@ -406,6 +407,7 @@
 | one-sided test | kiểm định một phía | https://git.io/Jvoja
 | one-tailed test | kiểm định một đuôi | https://git.io/Jvoja
 | optimization landscape | cảnh quan tối ưu | https://git.io/Jfwf3
+| optimizer | bộ tối ưu | https://git.io/J079o
 | optimizing metric | phép đo để tối ưu | https://git.io/JvQxY
 | orthogonal | trực giao | https://git.io/JvKem
 | orthonormal | trực chuẩn | https://git.io/JvKem
@@ -421,6 +423,7 @@
 | p-value | trị số p | https://git.io/Jvoja
 | padding | đệm | https://git.io/Jfe1I
 | partition function | hàm phân hoạch | https://git.io/JvQxE
+| passthrough neuron | nơ-ron chuyến tiếp | https://git.io/J079A
 | pasting (ensemble learning) | pasting | https://git.io/JqkWF
 | pattern recognition | nhận dạng mẫu | https://git.io/JvKeL
 | penalty | lượng phạt | https://git.io/JvQAP
@@ -449,6 +452,7 @@
 | principal component analysis (PCA) | phân tích thành phần chính | https://git.io/JvojD
 | prior | tiên nghiệm | https://git.io/JvQA6
 | probability theory | lý thuyết xác suất |
+| profiling trace | bản ghi hiệu suất | https://git.io/J0777
 | proposed region | vùng đề xuất |
 | proxy (in statistics) | biến đại diện |
 | purity | độ tinh khiết | https://git.io/JqklI
@@ -516,6 +520,7 @@
 | sequential partitioning | phân tách tuần tự |
 | server | máy chủ |
 | sensitivity | độ nhạy | https://git.io/Jvoja
+| shallow net | mạng nông | https://git.io/J07HW
 | shape (in linear algebra) | kích thước | https://git.io/Jvojn
 | significance test | kiểm định ý nghĩa | https://git.io/Jvoja
 | skip-gram (model) | (mô hình) skip-gram |

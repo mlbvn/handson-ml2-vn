@@ -406,6 +406,7 @@
 | one-sided test | kiểm định một phía | https://git.io/Jvoja
 | one-tailed test | kiểm định một đuôi | https://git.io/Jvoja
 | optimization landscape | cảnh quan tối ưu | https://git.io/Jfwf3
+| optimizer | bộ tối ưu | https://git.io/J079o
 | optimizing metric | phép đo để tối ưu | https://git.io/JvQxY
 | orthogonal | trực giao | https://git.io/JvKem
 | orthonormal | trực chuẩn | https://git.io/JvKem
@@ -421,6 +422,7 @@
 | p-value | trị số p | https://git.io/Jvoja
 | padding | đệm | https://git.io/Jfe1I
 | partition function | hàm phân hoạch | https://git.io/JvQxE
+| passthrough neuron | nơ-ron chuyến tiếp | https://git.io/J079A
 | pasting (ensemble learning) | pasting | https://git.io/JqkWF
 | pattern recognition | nhận dạng mẫu | https://git.io/JvKeL
 | penalty | lượng phạt | https://git.io/JvQAP
@@ -516,6 +518,7 @@
 | sequential partitioning | phân tách tuần tự |
 | server | máy chủ |
 | sensitivity | độ nhạy | https://git.io/Jvoja
+| shallow net | mạng nông | https://git.io/J07HW
 | shape (in linear algebra) | kích thước | https://git.io/Jvojn
 | significance test | kiểm định ý nghĩa | https://git.io/Jvoja
 | skip-gram (model) | (mô hình) skip-gram |

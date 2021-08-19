@@ -65,6 +65,7 @@
 |---------|------------|---------------
 | cache | bộ nhớ đệm |
 | (strictly) convex function | hàm lồi (chặt) | https://git.io/JvohV
+| callback | callback | https://git.io/J0777
 | candidate hidden state | trạng thái ẩn tiềm năng |
 | candidate memory | ô nhớ tiềm năng |
 | categorical variable | biến hạng mục | https://git.io/JfeXx
@@ -451,6 +452,7 @@
 | principal component analysis (PCA) | phân tích thành phần chính | https://git.io/JvojD
 | prior | tiên nghiệm | https://git.io/JvQA6
 | probability theory | lý thuyết xác suất |
+| profiling trace | bản ghi hiệu suất | https://git.io/J0777
 | proposed region | vùng đề xuất |
 | proxy (in statistics) | biến đại diện |
 | purity | độ tinh khiết | https://git.io/JqklI

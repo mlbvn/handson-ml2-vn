@@ -3,7 +3,7 @@
 
 ## Những Jupyter Notebooks
 
-### Tập 1 - Nền tảng Kiến thức về Học Máy (Chuẩn bị Phát hành)
+### Tập 1 - Nền tảng Kiến thức về Học Máy (Đã Phát hành)
 1. [Toàn cảnh Học Máy](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/01_the_machine_learning_landscape.ipynb)
 2. [Dự án Học Máy từ Đầu tới Cuối](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/02_end_to_end_machine_learning_project.ipynb)
 3. [Bài toán Phân loại](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/03_classification.ipynb)

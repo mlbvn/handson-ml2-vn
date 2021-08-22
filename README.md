@@ -5,7 +5,7 @@ và lời giải cho các bài tập trong cuốn sách **Thực hành Học Má
 tác giả Aurélien Géron (ấn bản gốc được xuất bản bởi [O'Reilly](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)).
 
 ## Đặt sách
-Vui lòng xem hướng dẫn tại https://handson-ml.mlbvn.org
+Vui lòng xem hướng dẫn tại https://handson-ml.mlbvn.org. Các thông tin về cuốn sách được cập nhật thường xuyên tại [Facebook page MLBVN](https://www.facebook.com/mlbvn.group).
 
 ## Bắt đầu
 

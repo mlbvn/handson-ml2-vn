@@ -140,6 +140,7 @@
 | dimension | chiều |
 | dimensionality | kích thước chiều |
 | dimensionality reduction | giảm chiều | https://git.io/JRnIs
+| discriminator (GAN) | bộ phân biệt | https://git.io/JElhd
 | distributed | phân tán |
 | distribution | phân phối |
 | domain adaptation | thích ứng miền |
@@ -147,6 +148,7 @@
 | downstream task | tác vụ xuôi dòng | https://git.io/JUtED
 | dot product | tích vô hướng (hoặc tích trong) | https://git.io/JvKem
 | dropout | dropout |
+| dropout rate | tỷ lệ dropout | https://git.io/JElhK
 | duality | đối ngẫu | https://git.io/JRnIX
 
 ### E
@@ -201,8 +203,9 @@
 | forward pass | lượt truyền xuôi | https://git.io/JvohG
 | forward inference | suy luận xuôi |
 | framework | framework |
+| freeze (weights) | đóng băng | https://git.io/JElj2
 | frontend | front-end |
-| frozen weight (freeze weight) | trọng số bị đóng băng (đóng băng trọng số) |
+| frozen weight | trọng số bị đóng băng |
 | functional analysis | giải tích hàm |
 | fully-connected | kết nối đầy đủ | https://git.io/JvohR
 | fully convolutional network | mạng tích chập đầy đủ |
@@ -219,6 +222,7 @@
 | generalization loss | mất mát khái quát | https://git.io/Jvoht
 | generative adversarial network | mạng đối sinh | https://git.io/JvojD
 | generative model | mô hình sinh | https://git.io/Jvojd
+| generator (GAN) | bộ sinh | https://git.io/JElhd
 | global interpreter lock | khóa trình thông dịch toàn cục | https://git.io/JfGiV
 | global maximum | giá trị lớn nhất | https://git.io/Jvopx
 | global minimum | giá trị nhỏ nhất | https://git.io/Jvopx
@@ -383,6 +387,7 @@
 | noise-injection | thêm nhiễu |
 | non-maximum suppression | triệt phi cực đại | https://git.io/JJXrQ
 | non-squashing activation function | hàm kích hoạt không ép |
+| non-trainable | bất khả huấn luyện | https://git.io/JEljs
 | nonstationary distribution | phân phối không dừng | https://git.io/Jfe1M
 | nonparametric | phi tham số |
 | norm | chuẩn | https://git.io/JvKem
@@ -582,6 +587,7 @@
 | token | token |
 | total variation | biến thiên toàn phần | https://git.io/JJyeI
 | total variation denoising | khử nhiễu biến thiên toàn phần |
+| trainable | khả huấn luyện | https://git.io/JEljs
 | training dev set | tập phát triển huấn luyện |
 | training set | tập huấn luyện |
 | training set performance | chất lượng trên tập huấn luyện |
@@ -606,6 +612,7 @@
 | uncertainty sampling | lấy mẫu bất định | https://git.io/JYVvY
 | underfit | dưới khớp | https://git.io/JvQxY
 | underflow (numerical) | tràn (số) dưới | https://git.io/JvohC
+| unfreeze (weights) | bỏ đóng băng | https://git.io/JElj2
 | unit (in neural networks) | nút | https://git.io/Jvohm
 | unsupervised learning | học không giám sát |
 | upsample | tăng mẫu | https://git.io/JvohC

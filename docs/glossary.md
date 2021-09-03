@@ -231,6 +231,7 @@
 | gradient descent | hạ gradient | https://git.io/JvQxY
 | graphical model | mô hình đồ thị |
 | greedy algorithm | thuật toán tham lam |
+| greedy layer-wise pretraining | tiền huấn luyện tham lam theo từng tầng | https://git.io/JEjtq
 | greedy search | tìm kiếm tham lam |
 | grid search | tìm kiếm dạng lưới | https://git.io/JtMUD
 | ground truth | nhãn gốc | https://git.io/JvQxl
@@ -312,7 +313,7 @@
 | learning algorithm | thuật toán học |
 | learning curve | đồ thị quá trình học | https://git.io/JvQxY
 | learning rate | tốc độ học |
-| learning rate schedule | định thời tốc độ học |
+| learning rate schedule | hoạch định tốc độ học | https://git.io/JEjLs
 | line search | tìm kiếm đường thẳng |
 | linear | tuyến tính | https://git.io/JvohV
 | linear algebra | đại số tuyến tính |
@@ -540,6 +541,7 @@
 | spectral clustering | phân cụm phổ | https://git.io/JOYhf
 | speech recognition | nhận dạng giọng nói |
 | squashing function | hàm ép | https://git.io/JvQA5
+| stack (verb) | xếp chồng | https://git.io/JEjL1
 | stacking (ensemble learning) | stacking | https://git.io/JqkWF
 | standard deviation | độ lệch chuẩn | https://git.io/Jvohb
 | standardize | chuẩn tắc hóa |
@@ -556,6 +558,7 @@
 | stratified sampling | lấy mẫu stratified | https://git.io/Jt2w5
 | style loss (in style transfer) | mất mát phong cách | https://git.io/JJyeI
 | stride | sải bước | https://git.io/Jfe1I
+| suboptimal | cận tối ưu | https://git.io/JEjtq
 | subscript | chỉ số dưới | https://git.io/Jvoh1
 | subspace estimation | ước lượng không gian con | https://git.io/JvojD
 | subword (NLP) | từ con | https://git.io/JUkWJ
@@ -615,6 +618,7 @@
 | unfreeze (weights) | bỏ đóng băng | https://git.io/JElj2
 | unit (in neural networks) | nút | https://git.io/Jvohm
 | unsupervised learning | học không giám sát |
+| unsupervised pretraining | tiền huấn luyện không giám sát | https://git.io/JEjtq
 | upsample | tăng mẫu | https://git.io/JvohC
 | upstream task | tác vụ ngược dòng | https://git.io/JUtED
 | utility function (in optimization) | hàm ích lợi |

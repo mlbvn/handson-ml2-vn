@@ -24,7 +24,9 @@
 | artificial data synthesis | tổng hợp dữ liệu nhân tạo |
 | artificial general intelligence (AGI) | trí tuệ nhân tạo phổ quát | https://git.io/Jvoj9
 | attention mechanisms | cơ chế tập trung |
+| autodiff | autodiff | https://git.io/JgvZK
 | autoencoder | bộ tự mã hóa | https://git.io/Jt2wZ
+| AutoGraph | AutoGraph | https://git.io/JgvnU
 | automatic differentiation | tính vi phân tự động | https://git.io/JvojU
 | autoregressive | tự hồi quy |
 | average pooling | gộp trung bình | https://git.io/JfGi6
@@ -95,6 +97,7 @@
 | confidence level | mức tin cậy |
 | confusion matrix | ma trận nhầm lẫn | https://git.io/JvQAy
 | constrain | ràng buộc |
+| constructor (OOP) | hàm khởi tạo | https://git.io/JgvZa
 | content loss (in style transfer) | mất mát nội dung | https://git.io/JJyeI
 | context-independent | độc lập ngữ cảnh |
 | context-sensitive | nhạy ngữ cảnh |
@@ -154,6 +157,7 @@
 ### E
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
+| eager (TF) | tức thời | https://git.io/JgvcZ
 | early stopping | dừng sớm |
 | edge (in computer vision) | biên | https://git.io/JfGiw
 | edge detector | bộ phát hiện biên | https://git.io/JfGiw
@@ -213,6 +217,7 @@
 ### G
 | English | Tiếng Việt | Thảo luận tại
 |---------|------------|---------------
+| garbage collector | bộ thu gom rác | https://git.io/Jgvcz
 | Gaussian distribution | phân phối Gauss (phân phối chuẩn) | https://git.io/JvohV
 | Gaussian mixture model | mô hình hỗn hợp Gauss | https://git.io/JOYhf
 | Gaussian noise | nhiễu Gauss |
@@ -229,6 +234,7 @@
 | gradient ascent | nâng gradient | https://git.io/JOYNt
 | gradient clipping | gọt gradient |
 | gradient descent | hạ gradient | https://git.io/JvQxY
+| gradient tape | cuộn băng gradient | https://git.io/JgvZK
 | graphical model | mô hình đồ thị |
 | greedy algorithm | thuật toán tham lam |
 | greedy layer-wise pretraining | tiền huấn luyện tham lam theo từng tầng | https://git.io/JEjtq
@@ -340,6 +346,7 @@
 |---------|------------|---------------
 | machine learning | học máy |
 | machine translation | dịch máy |
+| magic method | phương thức đặc biệt | https://git.io/JgvCR
 | majority vote | biểu quyết theo đa số | https://git.io/JqklO
 | manifold | đa tạp | https://git.io/JmbDT
 | marginalization | phép biên hóa | https://git.io/Jvohb
@@ -412,6 +419,7 @@
 | one-hot encoding | biễu diễn one-hot | https://git.io/JvohR
 | one-sided test | kiểm định một phía | https://git.io/Jvoja
 | one-tailed test | kiểm định một đuôi | https://git.io/Jvoja
+| operation (TF) | toán tử | https://git.io/JgvcF
 | optimization landscape | cảnh quan tối ưu | https://git.io/Jfwf3
 | optimizer | bộ tối ưu | https://git.io/J079o
 | optimizing metric | phép đo để tối ưu | https://git.io/JvQxY
@@ -436,6 +444,7 @@
 | perceptron | perceptron | https://git.io/JvohC
 | performance | chất lượng | https://git.io/JvQx4
 | perplexity (metric in NLP) | perplexity | https://git.io/Jf9KY
+| persistence (programming) | việc sao lưu / duy trì | https://git.io/Jgvcz
 | perturbation | nhiễu | https://git.io/JvQA1
 | pipeline | pipeline | https://git.io/JvQxG
 | pixel (component of digital images) | điểm ảnh |
@@ -501,6 +510,7 @@
 | reset gate | cổng xóa |
 | residual network | mạng phần dư | https://git.io/JfGi1
 | restricted Boltzmann machine | máy Boltzmann giới hạn | https://git.io/Jtb7E
+| reverse-mode autodiff | autodiff ngược | https://git.io/JgvZK
 | reward function | hàm điểm thưởng |
 | robust (adjective for models, algorithms, systems) | mạnh mẽ | https://git.io/Jfe1e
 | robust to noise | kháng nhiễu | https://git.io/JvQA1
@@ -515,6 +525,7 @@
 | satisficing metric | phép đo thỏa mãn | https://git.io/JvQxY
 | scalar | số vô hướng | https://git.io/Jvoja
 | scale invariant | bất biến quy mô | https://git.io/Jftwj
+| scope (programming) | phạm vi | https://git.io/Jgvcz
 | scoring function | hàm tính điểm |
 | serialization (programming) | chuỗi hóa |
 | semantic role labeling | dán nhãn vai trò ngữ nghĩa |
@@ -546,6 +557,7 @@
 | standard deviation | độ lệch chuẩn | https://git.io/Jvohb
 | standardize | chuẩn tắc hóa |
 | state-of-the-art | tân tiến nhất |
+| stateful metric | phép đo có trạng thái | https://git.io/JgvCT
 | stationary point | điểm dừng | https://git.io/JvohC
 | statistical inference | suy luận thống kê |
 | statistical power | năng lực thống kê | https://git.io/Jvoja
@@ -556,6 +568,7 @@
 | stochastic gradient descent | hạ gradient ngẫu nhiên |
 | stop word | từ dừng |
 | stratified sampling | lấy mẫu stratified | https://git.io/Jt2w5
+| streaming metric | phép đo luồng | https://git.io/JgvCT
 | style loss (in style transfer) | mất mát phong cách | https://git.io/JJyeI
 | stride | sải bước | https://git.io/Jfe1I
 | suboptimal | cận tối ưu | https://git.io/JEjtq
@@ -569,6 +582,7 @@
 | surrogate objective | mục tiêu thay thế | https://git.io/JvQxV
 | switch | bộ chuyển mạch |
 | symbolic graph | đồ thị biểu tượng | https://git.io/JvojU
+| symbolic tensor | tensor biểu tượng | https://git.io/Jgvcl
 
 ### T
 | English | Tiếng Việt | Thảo luận tại
@@ -590,6 +604,7 @@
 | token | token |
 | total variation | biến thiên toàn phần | https://git.io/JJyeI
 | total variation denoising | khử nhiễu biến thiên toàn phần |
+| tracing (TF graph mode) | truy vết | https://git.io/JgvnU
 | trainable | khả huấn luyện | https://git.io/JEljs
 | training dev set | tập phát triển huấn luyện |
 | training set | tập huấn luyện |

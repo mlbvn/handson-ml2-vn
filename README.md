@@ -5,9 +5,10 @@ và lời giải cho các bài tập trong cuốn sách **Thực hành Học Má
 tác giả Aurélien Géron (ấn bản gốc được xuất bản bởi [O'Reilly](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)).
 
 ## Đặt sách
-Vui lòng xem hướng dẫn tại https://handson-ml.mlbvn.org.
+Hiện tại, chúng tôi đã phát hành Tập 1 của cuốn sách này, Tập 2 sẽ sớm được giới thiệu đến độc giả vào đầu năm 2022 (Dự kiến).
+Để đặt sách, độc giả vui lòng xem hướng dẫn tại https://handson-ml.mlbvn.org.
 
-Các thông tin về cuốn sách được cập nhật thường xuyên tại [Facebook page MLBVN](https://www.facebook.com/mlbvn.group).
+Những thông tin về cuốn sách được cập nhật thường xuyên trên [Facebook Page của MLBVN](https://www.facebook.com/mlbvn.group).
 
 ## Bắt đầu
 
@@ -60,7 +61,7 @@ Nếu bạn cần thêm hướng dẫn, vui lòng đọc [hướng dẫn cài đ
 ### Bảng thuật ngữ
 Các thuật ngữ trong cuốn sách được bổ sung và thảo luận [tại đây](./docs/glossary.md).
 
-## Câu hỏi Thường gặp (FAQ)
+## Câu hỏi Thường gặp (FAQs)
 
 **Tôi nên sử dụng phiên bản Python nào?**
 

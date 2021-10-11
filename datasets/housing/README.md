@@ -1,17 +1,29 @@
 # California Housing
 
 ## Nguồn dữ liệu
-Bộ dữ liệu này là phiên bản sửa đổi từ Bộ dữ liệu California Housing có sẵn trên website của [Luís Torgo's](http://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html) (Đại học Porto). Luís Torgo đã thu được bộ dữ liệu này từ kho chứa StatLib (bây giờ không còn nữa). Bộ dữ liệu này chỉ có thể tải xuống từ bản sao lưu StatLib.
+Bộ dữ liệu này là phiên bản sửa đổi từ Bộ dữ liệu California Housing có sẵn trên website của 
+[Luís Torgo's](http://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html) (Đại học Porto). 
+Luís Torgo đã thu được bộ dữ liệu này từ kho chứa StatLib (bây giờ không còn nữa). Bộ dữ liệu 
+này chỉ có thể tải xuống từ bản sao lưu StatLib.
 
-Bộ dữ liệu này xuất hiện trong một bài báo có tên là *Sparse Spatial Autoregressions* của Pace, R. Kelley và Ronald Barry; được xuất bản trên Tạp chí *Statistics and Probability Letters* năm 1997. Họ đã xây dựng nó bằng cách sử dụng bộ dữ liệu điều tra dân số California năm 1990. Nó chứa một hàng cho mỗi nhóm khối diều tra dân số. Nhóm khối là đơn vị địa lý nhỏ nhất mà Cục điều tra dân số Hoa công bố  trên dữ liệu mẫu (một nhóm khối thường có dân số từ 600 đến 3,000 người).
+Bộ dữ liệu này xuất hiện trong một bài báo có tên là *Sparse Spatial Autoregressions* của 
+Pace, R. Kelley và Ronald Barry; được xuất bản trên Tạp chí *Statistics and Probability Letters* 
+năm 1997. Họ đã xây dựng nó bằng cách sử dụng bộ dữ liệu điều tra dân số California năm 1990. 
+Nó chứa một hàng cho mỗi nhóm khối diều tra dân số. Nhóm khối là đơn vị địa lý nhỏ nhất mà Cục 
+điều tra dân số Hoa công bố  trên dữ liệu mẫu (một nhóm khối thường có dân số từ 600 đến 3,000 người).
 
 ## Tinh chỉnh
 Bộ dữ liệu trong thư mục này gần giống với bản gốc, với hai điểm khác biệt sau:
 
-* 207 giá trị được xoá ngẫu nhiên khỏi cột `total_bedrooms`, điều này là để chúng ta có thể thảo luận về những việc cần làm với những dữ liệu bị thiếu.
-* Một thuộc tính phân loại bổ sung gọi là `ocean_proximity` đã được thêm vào, biểu thị (một cách chung chung) về nhóm khối ở gần đại dương (ocean), gần khu vực Vịnh (Bay), trong nội địa (Inland) hoặc trên một hòn đảo (Island). Điều này cho phép ta thảo luận về những việc cần làm với các dữ liệu phân loại.
+* 207 giá trị được xoá ngẫu nhiên khỏi cột `total_bedrooms`, điều này là để chúng ta có thể 
+thảo luận về những việc cần làm với những dữ liệu bị thiếu.
+* Một thuộc tính phân loại bổ sung gọi là `ocean_proximity` đã được thêm vào, biểu thị (một 
+cách chung chung) về nhóm khối ở gần đại dương (ocean), gần khu vực Vịnh (Bay), trong nội địa 
+(Inland) hoặc trên một hòn đảo (Island). Điều này cho phép ta thảo luận về những việc cần làm 
+với các dữ liệu phân loại.
 
-Lưu ý rằng các nhóm khối được gọi là "districts" (quận) ở trong Jupyter Notebooks, vì trong một số bối cảnh tên này có thể gây nhầm lẫn.
+Lưu ý rằng các nhóm khối được gọi là "districts" (quận) ở trong Jupyter Notebooks, vì trong 
+một số bối cảnh tên này có thể gây nhầm lẫn.
 
 ## Mô tả Dữ liệu
 

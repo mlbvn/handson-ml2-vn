@@ -1,9 +1,9 @@
 # Life satisfaction and GDP per capita
 ## Life satisfaction
-### Source
+### Nguồn dữ liệu
 This dataset was obtained from the OECD's website at: http://stats.oecd.org/index.aspx?DataSetCode=BLI
 
-### Data description
+### Mô tả Dữ liệu
 
     Int64Index: 3292 entries, 0 to 3291
     Data columns (total 17 columns):
@@ -67,10 +67,10 @@ This dataset was obtained from the OECD's website at: http://stats.oecd.org/inde
     memory usage: 7.2+ KB
 
 ## GDP per capita
-### Source
+### Nguồn dữ liệu
 Dataset obtained from the IMF's website at: http://goo.gl/j1MSKe
 
-### Data description
+### Mô tả Dữ liệu
 
     Int64Index: 190 entries, 0 to 189
     Data columns (total 7 columns):

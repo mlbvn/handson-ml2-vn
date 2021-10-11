@@ -1,6 +1,7 @@
 # Danh mục Công việc trong Dự án Học Máy 
 
-Danh sách danh mục công việc cho dự án Học Máy các công việc này có thể là kim chỉ nam trong các dự án Học Máy của bạn. Nó bao gồm tám bước chính sau:
+Danh sách danh mục công việc cho dự án Học Máy các công việc này có thể là kim chỉ nam 
+trong các dự án Học Máy của bạn. Nó bao gồm tám bước chính sau:
 
 1. Định hình bài toán và xem xét bức tranh tổng thể.
 2. Thu thập dữ liệu.
@@ -86,18 +87,23 @@ Lưu ý:
 
 ## Rút gọn Danh sách các Mô hình Tiềm năng 
 Lưu ý:
-- Nếu tập dữ liệu lớn, bạn có thể lấy mẫu các tập huấn luyện nhỏ hơn để huấn luyện nhiều mô hình khác nhau trong một khoảng thời gian hợp lý (lưu ý rằng phương pháp này không hiệu quả với những mô hình phức tạp như các mạng nơ-ron lớn hoặc Rừng Ngẫu nhiên).
+- Nếu tập dữ liệu lớn, bạn có thể lấy mẫu các tập huấn luyện nhỏ hơn để huấn luyện nhiều mô hình 
+khác nhau trong một khoảng thời gian hợp lý (lưu ý rằng phương pháp này không hiệu quả với những 
+mô hình phức tạp như các mạng nơ-ron lớn hoặc Rừng Ngẫu nhiên).
 - Một lần nữa, hãy cố gắng tự động hoá các bước này nhiều nhất có thể.  
 
-1. Huấn luyện nhiều loại mô hình đơn giản khác nhau (ví dụ như tuyến tính, naive Bayes, SVM, Rừng Ngẫu nhiên, Mạng nơ-ron, v.v..) sử dụng các tham số tiêu chuẩn.
+1. Huấn luyện nhiều loại mô hình đơn giản khác nhau (ví dụ như tuyến tính, naive Bayes, SVM, 
+Rừng Ngẫu nhiên, Mạng nơ-ron, v.v..) sử dụng các tham số tiêu chuẩn.
 2. Đo lường và so sánh chất lượng của chúng.
-    - Với mỗi mô hình, sử dụng kiểm định N-fold, tính trung bình và độ lệch chuẩn của chất lượng mô hình trên N-fold.
+    - Với mỗi mô hình, sử dụng kiểm định N-fold, tính trung bình và độ lệch chuẩn 
+    của chất lượng mô hình trên N-fold.
 3. Phân tích những biến quan trọng nhất của từng thuật toán.
 4. Phân tích những loại lỗi mà các mô hình gặp phải.
     - Con người sẽ sử dụng dữ liệu nào để tránh những lỗi này?
 5. Thực hiện nhanh một lượt lựa chọn và thiết kế đặc trưng.
 6. Thực hiện nhanh một hoặc hai lượt cả năm bước ở trên.
-7. Tạo danh sách rút gọn từ ba tới năm mô hình có tiềm năng nhất, ưu tiên các mô hình có các loại lỗi khác nhau.
+7. Tạo danh sách rút gọn từ ba tới năm mô hình có tiềm năng nhất, 
+ưu tiên các mô hình có các loại lỗi khác nhau.
 
 ## Tinh chỉnh Hệ thống
 Lưu ý: 
@@ -105,8 +111,13 @@ Lưu ý:
 - Như thường lệ, cố gắng tự động hoá càng nhiều càng tốt.
 
 1. Tinh chỉnh các siêu tham số sử dụng kiểm định chéo:
-    - Xem các lựa chọn biến đổi dữ liệu như các siêu tham số, đặc biệt là khi bạn không chắc chắn về cách lựa chọn chúng (ví dụ nếu bạn phân vân trong việc thay thế giá trị thiếu bằng 0 hay bằng giá trị trung vị, hay chỉ đơn giản là bỏ luôn các hàng đó).
-    - Trừ khi có rất ít các giá trị siêu tham số để thử nghiệm, hãy ưu tiên tìm kiếm ngẫu nhiên thay vì tìm kiếm dạng lưới. Nếu quá trình huấn luyện tốn nhiều thời gian, bạn có thể sử dụng phương pháp tối ưu hóa Bayes (ví dụ như dùng quá trình Gauss tiên nghiệm (Gaussian process prior),như được mô tả bởi Jasper Snoek, Hugo Larochelle, và Ryan Adams ([https://goo.gl/PEFfGr](https://goo.gl/PEFfGr))).
+    - Xem các lựa chọn biến đổi dữ liệu như các siêu tham số, đặc biệt là khi bạn không chắc chắn về cách 
+    lựa chọn chúng (ví dụ nếu bạn phân vân trong việc thay thế giá trị thiếu bằng 0 hay bằng giá trị trung vị, 
+    hay chỉ đơn giản là bỏ luôn các hàng đó).
+    - Trừ khi có rất ít các giá trị siêu tham số để thử nghiệm, hãy ưu tiên tìm kiếm ngẫu nhiên thay vì tìm kiếm 
+    dạng lưới. Nếu quá trình huấn luyện tốn nhiều thời gian, bạn có thể sử dụng phương pháp tối ưu hóa Bayes 
+    (ví dụ như dùng quá trình Gauss tiên nghiệm (Gaussian process prior),như được mô tả bởi Jasper Snoek, Hugo 
+    Larochelle, và Ryan Adams ([https://goo.gl/PEFfGr](https://goo.gl/PEFfGr))).
 2. Thử các phương pháp Ensemble. Kết hợp các mô hình tốt nhất thường sẽ cho kết quả tốt hơn so với từng mô hình riêng biệt.
 3. Một khi bạn đã tự tin với mô hình cuối cùng, hãy đo lường chất lượng trên tập kiểm tra để ước lượng lỗi tổng quát hóa.
 
@@ -120,13 +131,16 @@ Lưu ý:
 4. Đừng quên trình bày những điểm thú vị mà bạn tìm được trong quá trình phát triển hệ thống.
     - Mô tả những thứ hoạt động và không hoạt động.
     - Liệt kê các giả định cũng như các hạn chế của hệ thống.
-5. Đảm bảo những phát hiện chính của bạn được truyền đạt bằng trực quan đẹp mắt hoặc mệnh đề dễ nhớ (ví dụ như "thu nhập trung bình là nhân tố quan trọng nhất để dự đoán giá nhà ở").
+5. Đảm bảo những phát hiện chính của bạn được truyền đạt bằng trực quan đẹp mắt hoặc mệnh đề dễ nhớ 
+(ví dụ như "thu nhập trung bình là nhân tố quan trọng nhất để dự đoán giá nhà ở").
 
 ## Triển khai!
 1. Chuẩn bị để triển khai giải pháp (đưa dữ liệu đầu vào vào hệ thống, viết unit test, v.v..).
-2. Viết mã giám sát để kiểm tra định kỳ chất lượng của hệ thống trong quá trình hoạt động và kích hoạt cảnh bảo khi chất lượng đi xuống.
+2. Viết mã giám sát để kiểm tra định kỳ chất lượng của hệ thống trong quá trình hoạt động 
+và kích hoạt cảnh bảo khi chất lượng đi xuống.
     - Cẩn thận với sự xuống cấp chậm của hệ thống: các mô hình có xu hướng "mục nát" khi dữ liệu thay đổi.
     - Việc đo lường chất lượng có thể yêu cầu nhân công con người (ví dụ như thông qua các dịch vụ crowdsourcing).
-    - Đồng thời theo dõi chất lượng của đầu vào (ví dụ cảm biến bị trục trặc gửi đi các giá trị ngẫu nhiên, hoặc đầu ra của một nhóm khác không được cập nhật theo thời gian thực).
+    - Đồng thời theo dõi chất lượng của đầu vào (ví dụ cảm biến bị trục trặc gửi đi các giá trị ngẫu nhiên, 
+    hoặc đầu ra của một nhóm khác không được cập nhật theo thời gian thực).
     Điều này đặc biệt quan trọng với các hệ thống học trực tuyến.  
 3. Huấn luyện lại các mô hình theo định kỳ với dữ liệu mới (tự động hóa nhiều nhất có thể).

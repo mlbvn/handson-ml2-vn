@@ -281,7 +281,7 @@
 | inductive bias | thiên kiến quy nạp |
 | initializer | bộ khởi tạo | https://git.io/Jfe1U
 | instance-based learning | học dựa trên mẫu | https://git.io/Jt2r3
-| instance segmentation | phân vùng thực thể |
+| instance segmentation | phân vùng theo vật thể | https://git.io/JPVGh
 | internal covariate shift | dịch chuyển hiệp biến nội bộ |
 | interpretability (of ML models) | khả năng diễn dịch | https://git.io/JqtAD
 | intersection over union (IoU) | phần giao trên phần hợp |
@@ -530,7 +530,7 @@
 | scoring function | hàm tính điểm |
 | serialization (programming) | chuỗi hóa |
 | semantic role labeling | dán nhãn vai trò ngữ nghĩa |
-| semantic segmentation | phân vùng theo ngữ nghĩa |
+| semantic segmentation | phân vùng theo nhóm | https://git.io/JPVGh
 | sentiment classification (analysis) | phân loại (phân tích) cảm xúc |
 | sequence-aware (recommender system) | (hệ thống đề xuất) có nhận thức về chuỗi | https://git.io/JUWLM
 | sequence learning | học chuỗi | https://git.io/JvQxa

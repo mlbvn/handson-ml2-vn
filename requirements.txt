@@ -75,7 +75,7 @@ joblib==0.14.1
 requests==2.25.1
 
 # Nice utility to diff Jupyter Notebooks.
-nbdime==2.1.0
+nbdime==2.1.1
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).

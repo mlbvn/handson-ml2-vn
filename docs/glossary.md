@@ -171,6 +171,7 @@
 | end-to-end | đầu-cuối | https://git.io/JvQxG
 | ensemble | ensemble | https://git.io/Jtsq7
 | epoch (in training) | epoch (khi huấn luyện) | https://git.io/Jvoha
+| equivariance | đồng biến | https://git.io/JX5Kb
 | error analysis | phân tích lỗi |
 | error rate | tỉ lệ lỗi |
 | estimator | bộ ước lượng |

@@ -415,6 +415,8 @@
 | object detection | phát hiện vật thể |
 | object recognition | nhận dạng vật thể |
 | objective function | hàm mục tiêu | https://git.io/Jvojp
+| objectness | sự xuất hiện của vật thể | https://github.com/mlbvn/handson-ml2-vn/discussions/150
+| objectness score | điểm số vật thể | https://github.com/mlbvn/handson-ml2-vn/discussions/150
 | offline learning | học ngoại tuyến | https://git.io/Jvojd
 | offset | độ dời | https://git.io/JfwX5
 | one-hot encoding | biễu diễn one-hot | https://git.io/JvohR
@@ -511,6 +513,7 @@
 | rescale | (phép) tái co giãn | https://git.io/JtwoF
 | reset gate | cổng xóa |
 | residual network | mạng phần dư | https://git.io/JfGi1
+| response (in signal processing) | đáp ứng | https://github.com/mlbvn/handson-ml2-vn/discussions/149
 | restricted Boltzmann machine | máy Boltzmann giới hạn | https://git.io/Jtb7E
 | reverse-mode autodiff | autodiff ngược | https://git.io/JgvZK
 | reward function | hàm điểm thưởng |
@@ -543,6 +546,7 @@
 | shape (in linear algebra) | kích thước | https://git.io/Jvojn
 | significance test | kiểm định ý nghĩa | https://git.io/Jvoja
 | skip-gram (model) | (mô hình) skip-gram |
+| skip connection | kết nối tắt | https://github.com/mlbvn/handson-ml2-vn/discussions/148
 | significance test | kiểm định ý nghĩa | https://git.io/Jvoja
 | silhouette (clustering metric) | silhouette | https://git.io/JOYAL
 | singular value decomposition | phân tích giá trị suy biến | https://git.io/JmbD3

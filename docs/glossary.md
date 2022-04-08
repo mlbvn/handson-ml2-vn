@@ -544,7 +544,6 @@
 | sensitivity | độ nhạy | https://git.io/Jvoja
 | shallow net | mạng nông | https://git.io/J07HW
 | shape (in linear algebra) | kích thước | https://git.io/Jvojn
-| significance test | kiểm định ý nghĩa | https://git.io/Jvoja
 | skip-gram (model) | (mô hình) skip-gram |
 | skip connection | kết nối tắt | https://github.com/mlbvn/handson-ml2-vn/discussions/148
 | significance test | kiểm định ý nghĩa | https://git.io/Jvoja

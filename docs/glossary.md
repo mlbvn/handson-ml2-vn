@@ -112,6 +112,7 @@
 | cosine | cô-sin |
 | cost function | hàm chi phí | https://git.io/Jvojp
 | covariate | hiệp biến | https://git.io/JvohK
+| credit assignment | tính công | shorturl.at/frCPR
 | crop (image) | cắt (ảnh) |
 | cross correlation | tương quan chéo |
 | cross entropy | entropy chéo |
@@ -143,6 +144,7 @@
 | dimension | chiều |
 | dimensionality | kích thước chiều |
 | dimensionality reduction | giảm chiều | https://git.io/JRnIs
+| discount factor (RL)| hệ số chiết khấu | shorturl.at/frCPR
 | discriminator (GAN) | bộ phân biệt | https://git.io/JElhd
 | distributed | phân tán |
 | distribution | phân phối |
@@ -515,6 +517,7 @@
 | residual network | mạng phần dư | https://git.io/JfGi1
 | response (in signal processing) | đáp ứng | #149
 | restricted Boltzmann machine | máy Boltzmann giới hạn | https://git.io/Jtb7E
+| return (RL) | lợi nhuận | shorturl.at/frCPR
 | reverse-mode autodiff | autodiff ngược | https://git.io/JgvZK
 | reward function | hàm điểm thưởng |
 | robust (adjective for models, algorithms, systems) | mạnh mẽ | https://git.io/Jfe1e

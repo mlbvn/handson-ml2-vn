@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "We appreciate, but do not require, attribution."
+authors:
+- family-names: "Géron"
+  given-names: "Aurélien"
+title: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition"
+url: "https://github.com/ageron/handson-ml2"
+preferred-citation:
+  type: book
+  authors:
+  - family-names: "Géron"
+    given-names: "Aurélien"
+  title: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition"
+  month: 9
+  year: 2019
+  edition: '2nd'
+  publisher:
+    name: O'Reilly Media, Inc.
+    website: https://www.oreilly.com/
+  isbn: '9781492032649'
+  start: 1 # First page number
+  end: 856 # Last page number

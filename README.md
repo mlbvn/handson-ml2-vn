@@ -5,10 +5,10 @@ và lời giải cho các bài tập trong cuốn sách **Thực hành Học Má
 tác giả Aurélien Géron (ấn bản gốc được xuất bản bởi [O'Reilly](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)).
 
 ## Đặt sách
-Hiện tại, chúng tôi đã phát hành Tập 1 của cuốn sách này, Tập 2 sẽ sớm được giới thiệu đến độc giả vào đầu năm 2022 (Dự kiến).
+Hiện tại, chúng tôi đã phát hành Tập 1 của cuốn sách này, Tập 2 sẽ sớm được giới thiệu đến độc giả vào cuối năm 2022 (Dự kiến).
 Để đặt sách, độc giả vui lòng xem hướng dẫn tại https://handson-ml.mlbvn.org.
 
-Những thông tin về cuốn sách được cập nhật thường xuyên trên [Facebook Page của MLBVN](https://www.facebook.com/mlbvn.group).
+Những thông tin về cuốn sách được cập nhật thường xuyên trên [Facebook Page của MLBVN](https://www.facebook.com/mlbvn.org).
 
 ## Bắt đầu
 

@@ -69,7 +69,7 @@ pyglet==1.5.0
 ##### Additional utilities
 
 # Efficient jobs (caching, parallelism, persistence)
-joblib==0.14.1
+joblib==1.2.0
 
 # Easy http requests
 requests==2.25.1

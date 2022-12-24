@@ -1,29 +1,24 @@
-# Bộ dữ liệu Johann Sebastian Bach (JSB) Chorales
+# Johann Sebastian Bach Chorales Dataset
 
-## Nguồn dữ liệu
-This dataset contains 382 chorales by Johann Sebastian Bach (in the public domain), where each chorale 
-is composed of 100 to 640 chords with a temporal resolution of 1/16th. Each chord is composed of 4 integers, 
-each indicating the index of a note on a piano, except for the value 0 which means "no note played".
+## Source
+This dataset contains 382 chorales by Johann Sebastian Bach (in the public domain), where each chorale is composed of 100 to 640 chords with a temporal resolution of 1/16th. Each chord is composed of 4 integers, each indicating the index of a note on a piano, except for the value 0 which means "no note played".
 
-This dataset is based on [czhuang's JSB-Chorales-dataset](https://github.com/czhuang/JSB-Chorales-dataset/) 
-(`Jsb16thSeparated.npz`) which used the train, validation, test split from Boulanger-Lewandowski (2012).
+This dataset is based on [czhuang's JSB-Chorales-dataset](https://github.com/czhuang/JSB-Chorales-dataset/blob/master/README.md) (`Jsb16thSeparated.npz`) which used the train, validation, test split from Boulanger-Lewandowski (2012).
 
 Motivation: I thought it would be nice to have a version of this dataset in CSV format.
 
-## Thông tin Tham khả
-Boulanger-Lewandowski, N., Vincent, P., & Bengio, Y. (2012). Modeling Temporal Dependencies in 
-High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription. 
-Proceedings of the 29th International Conference on Machine Learning (ICML-12), 1159–1166.
+## Reference
+Boulanger-Lewandowski, N., Vincent, P., & Bengio, Y. (2012). Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription. Proceedings of the 29th International Conference on Machine Learning (ICML-12), 1159–1166.
 
-## Sử dụng
-Tải tệp tin `jsb_chorales.tgz` và giải nén nó:
+## Usage
+Download `jsb_chorales.tgz` and untar it:
 
 ```bash
 $ tar xvzf jsb_chorales.tgz
 ```
 
-## Cấu trúc Dữ liệu
-Dữ liệu được chia thành ba thư mục (train, valid, test), với 382 tệp tin CSV: 
+## Data structure
+The dataset is split in three (train, valid, test), with a total of 382 CSV files:
 
 ```
 $ tree
@@ -51,7 +46,7 @@ $ tree
     └── chorale_381.csv
 ```
 
-## Dữ liệu Mẫu
+## Data sample
 
 ```
 $ head train/chorale_000.csv
@@ -66,3 +61,5 @@ note0,note1,note2,note3
 75,70,60,55
 77,69,62,50
 ```
+
+Enjoy!

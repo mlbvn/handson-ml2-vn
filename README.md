@@ -1,14 +1,15 @@
 ![](.github/assets/cover.jpg)
 
 Dự án này mục tiêu là dạy cho bạn các kiến thức nền tảng về Học Máy trong Python. Kho chứa gồm ví dụ 
-và lời giải cho các bài tập trong cuốn sách **Thực hành Học Máy với Scikit-Learn, Keras & TensorFlow** của 
-tác giả Aurélien Géron (ấn bản gốc được xuất bản bởi [O'Reilly](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)).
+và lời giải cho các bài tập trong cuốn sách **Thực hành Học Máy với Scikit-Learn, Keras & TensorFlow**, dựa theo ấn bản lần thứ hai của 
+tác giả Aurélien Géron (ấn bản gốc được xuất bản bởi [O'Reilly](https://oreilly.com/library/view/hands-on-machine-learning/9781492032632/)).
 
 ## Đặt sách
-Hiện tại, chúng tôi đã phát hành Tập 1 của cuốn sách này, Tập 2 sẽ sớm được giới thiệu đến độc giả vào cuối năm 2022 (Dự kiến).
-Để đặt sách, độc giả vui lòng xem hướng dẫn tại https://handson-ml.mlbvn.org.
+Bản chuyển ngữ dựa theo ấn bản lần thứ hai của tác giả Aurélien Géron do đội ngũ MLBVN thực hiện được phát hành dưới thể thức sách điện tử, tập tin PDF (DRM), cho phép tải về, không cấp phép in ấn, phân phối, chia sẻ, và chỉ được sử dụng cho mục đích cá nhân với các yêu cầu được quy định cụ thể.
 
-Những thông tin về cuốn sách được cập nhật thường xuyên trên [Facebook Page của MLBVN](https://www.facebook.com/mlbvn.org).
+Để đặt sách và tìm hiểu kỹ các quy định sử dụng nêu trên, quý độc giả vui lòng xem hướng dẫn tại **https://handson-ml.mlbvn.org**.
+
+Những thông tin về cuốn sách được đội ngũ MLBVN cập nhật thường xuyên trên [Facebook Page của MLBVN](https://www.facebook.com/mlbvn.org).
 
 ## Bắt đầu
 
@@ -19,18 +20,26 @@ hoặc Kaggle, bởi vì họ cung cấp GPU & TPU miễn phí).
 **CẢNH BÁO**: *Xin lưu ý rằng các dịch vụ này cung cấp môi trường tạm thời. Mọi thứ bạn làm sẽ bị xoá đi 
 sau một thời gian, vì vậy hãy đảm bảo rằng bạn đã tải xuống bất kỳ dữ liệu nào bạn quan tâm*.
 
-| Google Colab | Kaggle | Binder | Deepnote |
-|---|---|---|---|
-| <a href="https://colab.research.google.com/github/mlbvn/handson-ml2-vn/blob/main/" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://git.io/Jc6Ge"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a> | <a href="https://mybinder.org/v2/gh/mlbvn/handson-ml2-vn/HEAD?filepath=%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Launch binder" /></a> | <a href="https://git.io/Jc6sF"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Launch in Deepnote" /></a> |
+* [![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlbvn/handson-ml2-vn/blob/main/)
+
+* [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://git.io/Jc6Ge)
+
+* [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlbvn/handson-ml2-vn/HEAD?filepath=%2Findex.ipynb)
+
+* [![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://git.io/Jc6sF)
 
 ### Xem nhanh & Không thực hành
+Bạn có thể sử dụng bất kỳ dịch vụ gợi ý nào dưới đây để xem nhanh các nội dung trong kho chứa này.
 
-* [Jupyter NBViewer](https://nbviewer.jupyter.org/github/mlbvn/handson-ml2-vn/blob/main/index.ipynb) là một lựa chọn tốt để làm việc này.
-* [Github](https://github.com/mlbvn/handson-ml2-vn/blob/main/index.ipynb) là một lựa chọn nhưng không quá lý tưởng: 
-nó chậm hơn, những phương trình toán học không phải lúc nào cũng được hiển thị chính xác và các Jupyter Notebooks lớn có thể sẽ không hoạt động.
+* [![Open in GitHub](https://img.shields.io/static/v1?logo=github&label=&message=Open%20in%20GitHub&color=0969da&labelColor=333&logoColor=fff)](https://github.com/mlbvn/handson-ml2-vn/blob/main/index.ipynb)
+
+* [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=086abf&labelColor=333&logoColor=086abf)](https://github.dev/mlbvn/handson-ml2-vn)
+
+* [![Open in Jupyter NBViewer](https://img.shields.io/static/v1?logo=jupyter&label=&message=Open%20in%20Jupyter%20NBViewer&color=f37626&labelColor=333&logoColor=fff)](https://nbviewer.jupyter.org/github/mlbvn/handson-ml2-vn/blob/main/index.ipynb)
+
+**Lưu ý**: Nếu bạn sử dụng Visual Studio Code, bạn có thể cần phải cài đặt một số tiện ích bổ sung để có thể chạy Notebook.
 
 ### Chạy trên Docker
-
 Vui lòng đọc qua [hướng dẫn Docker](https://github.com/mlbvn/handson-ml2-vn/tree/main/docker) để biết thêm thông tin.
 
 ### Cài đặt Dự án trên Máy tính của bạn
@@ -92,7 +101,4 @@ Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) �
 Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 ## Maintainer
-
 Duy–Thanh Doan [@duythanhvn](https://github.com/duythanhvn)
-
-

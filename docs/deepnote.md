@@ -39,7 +39,7 @@
 * [Auto-differentiation](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/extra_autodiff.ipynb)
 
 ## Tài liệu khác
-* Phương trình (Danh sách các phương trình có trong cuốn sách)
+* [Phương trình (Danh sách các phương trình có trong cuốn sách)](https://deepnote.com/launch?template=data-science&url=https://github.com/mlbvn/handson-ml2-vn/blob/main/book_equation.ipynb)
 
 ## Kiến thức cần có
 

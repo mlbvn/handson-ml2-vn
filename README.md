@@ -101,4 +101,4 @@ Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) �
 Mời bạn xem qua [hướng dẫn cài đặt chi tiết](./docs/install.md) để biết thêm thông tin.
 
 ## Maintainer
-Duy–Thanh Doan [@duythanhvn](https://github.com/duythanhvn)
+Thanh Doan [@thanhcsf](https://github.com/thanhcsf)

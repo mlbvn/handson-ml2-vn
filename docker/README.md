@@ -1,4 +1,4 @@
-# Thực hành Học Máy với Docker (Đang thực hiện)
+# Thực hành Học Máy với Docker
 
 Đây là cấu hình Docker cho phép bạn chạy và chỉnh sửa các Notebook của cuốn sách này mà
 không cần phải cài đặt bất kỳ các gói dữ liệu phụ thuộc (dependencies) nào vào thiết bị của bạn.
@@ -17,18 +17,18 @@ Nếu bạn có thể trang bị một số kiến thức chung về hệ thốn
 
 ## Sử dụng
 
-### Chuẩn bị Ảnh
+### Chuẩn bị Image
 
-Tùy chọn đầu tiên là kéo Ảnh (image) từ Docker Hub (có thể tải xuống khoảng 1.9 GB dữ liệu nén):
+Tùy chọn đầu tiên là kéo Image từ Docker Hub (có thể tải xuống khoảng 1.9 GB dữ liệu nén):
 
 ```bash
 $ docker pull mlbvn/handson-ml2-vn-vn
 ```
 
-**Lưu ý**: Ảnh này chỉ dành cho CPU. Để chạy được với GPU, vui lòng đọc hướng dẫn ở phía dưới.
+**Lưu ý**: Image này chỉ dành cho CPU. Để chạy được với GPU, vui lòng đọc hướng dẫn ở phía dưới.
 
-Ngoài ra, bạn có thể tự xây dựng một Ảnh riêng cho mình. Điều này có thể chậm hơn, nhưng nó sẽ
-đảm bảo Ảnh được cập nhật với các thư viện mới nhất. Đối với điều này, giả sử bạn đã tải xuống
+Ngoài ra, bạn có thể tự xây dựng một Image riêng cho mình. Điều này có thể chậm hơn, nhưng nó sẽ
+đảm bảo Image được cập nhật với các thư viện mới nhất. Đối với điều này, giả sử bạn đã tải xuống
 dự án này vào thư mục `/path/to/project/handson-ml2-vn`:
 
 ```bash
@@ -38,7 +38,7 @@ $ docker-compose build
 
 Việc này có thể mất khá nhiều thời gian, nhưng chỉ yêu cầu một lần.
 
-Sau khi quá trình này hoàn tất, bạn sẽ có một Ảnh `mlbvn/handson-ml2-vn-vn:latest`, đó sẽ là
+Sau khi quá trình này hoàn tất, bạn sẽ có một Image `mlbvn/handson-ml2-vn-vn:latest`, đó sẽ là
 cơ sở cho các thử nghiệm của bạn. Bạn có thể xác nhận điều này bằng cách chạy lệnh sau:
 
 ```bash
@@ -59,7 +59,7 @@ $ docker-compose up
 
 Tiếp theo, cần trỏ trình duyệt của bạn đến URL được hiển thị trên màn hình (hoặc truy cập 
 <http://localhost:8888> nếu bạn đã bật xác thực mật khẩu bên trong tệp tin `jupyter_notebook_config.py`,
-trước khi tạo Ảnh) và bạn đã sẵn sàng để thực hành với mã nguồn của cuốn sách.
+trước khi tạo Image) và bạn đã sẵn sàng để thực hành với mã nguồn của cuốn sách.
 
 Máy chủ chạy trong thư mục chứa Notebook và những thay đổi bạn thực hiện từ trình duyệt sẽ
 vẫn tồn tại ở đó.
@@ -71,60 +71,71 @@ trong cửa sổ dòng lệnh (Terminal).
 
 Nếu bạn đã cài đặt `make` trên máy tính của mình, bạn có thể sử dụng nó như một tầng mỏng để chạy
 lệnh `docker-compose`. Ví dụ, việc thực thi lệnh `make rebuild` sẽ chạy `docker-compose build --no-cache`,
-sẽ xây dựng lại Ảnh mà khkông cần sử dụng bộ nhớ cache. Điều này đảm bảo rằng Ảnh của bạn dựa trên
-phiên bản mới nhất của Ảnh `continuumio/miniconda3`, và Ảnh `mlbvn/handson-ml2-vn-vn` này được dựa trên nó.
+sẽ xây dựng lại Image mà khkông cần sử dụng bộ nhớ cache. Điều này đảm bảo rằng Image của bạn dựa trên
+phiên bản mới nhất của Image `continuumio/miniconda3`, và Image `mlbvn/handson-ml2-vn-vn` này được dựa trên nó.
 
 Nếu bạn không có `make` (và bạn không muốn cài đặt nó), bạn chỉ cần kiểm tra nội dung của tệp tin `Makefile`
 để xem bạn có thể chạy lệnh `docker-compose` để thay thế không.
 
 ### Chạy các lệnh bổ sung trên Container
 
-Run `make exec` (or `docker-compose exec handson-ml2-vn bash`) while the server is running to run an additional `bash` shell inside the `handson-ml2-vn` container. Now you're inside the environment prepared within the image.
+Chạy lệnh `make exec` (hoặc `docker-compose exec handson-ml2-vn bash`) trong khi máy chủ đang chạy để chạy thêm một 
+`bash` shell bên trong Container `handson-ml2-vn`. Bây giờ bạn đã ở trong môi trường được chuẩn bị trong Image.
 
-One of the useful things that can be done there would be starting TensorBoard (for example with simple `tb` command, see bashrc file).
+Một trong những điều hữu ích có thể là bắt đầu với TensorBoard (ví dụ với lệnh `tb` đơn giản, xem tập tin bashrc).
 
-Another one may be comparing versions of the notebooks using the `nbdiff` command if you haven't got `nbdime` installed locally (it is **way** better than plain `diff` for notebooks). See [Tools for diffing and merging of Jupyter notebooks](https://github.com/jupyter/nbdime) for more details.
+Một cách khác có thể so sánh các phiên bản của các Notebook bằng cách sử dụng lệnh `nbdiff` nếu bạn chưa cài đặt 
+`nbdime` cục bộ (nó **tốt hơn** so với `diff` thông thường cho các Notebook). Xem 
+[Công cụ Diff & Merg cho Jupyter Notebook](https://github.com/jupyter/nbdime) để biết thêm chi tiết.
 
-You can see changes you made relative to the version in git using `git diff` which is integrated with `nbdiff`.
+Bạn có thể thấy các thay đổi bạn đã thực hiện so với phiên bản trong git bằng cách sử dụng `git diff` được tích hợp với `nbdiff`.
 
-You may also try `nbd NOTEBOOK_NAME.ipynb` command (custom, see bashrc file) to compare one of your notebooks with its `checkpointed` version.<br/>
-To be precise, the output will tell you *what modifications should be re-played on the **manually saved** version of the notebook (located in `.ipynb_checkpoints` subdirectory) to update it to the **current** i.e. **auto-saved** version (given as command's argument - located in working directory)*.
+Bạn cũng có thể thử lệnh `nbd NOTEBOOK_NAME.ipynb` (tùy chỉnh, xem tập tin bashrc) để so sánh một trong các Notebook của bạn 
+với phiên bản `checkpointed` của nó.<br/>
+
+Một cách chính xác thì đầu ra sẽ cho bạn biết *những thay đổi nào cần được phát lại trên phiên bản **được lưu thủ công** của 
+Notebook (nằm trong thư mục con `.ipynb_checkpoints`) để cập nhật nó thành phiên bản **hiện tại** tức là phiên bản **được lưu 
+tự động** (được đưa ra như đối số của lệnh - nằm trong thư mục làm việc)*.
 
 ## Hỗ trợ GPU trên Linux (Thử nghiệm)
 
 ### Kiến thức Cần có
 
-If you're running on Linux, and you have a TensorFlow-compatible GPU card (NVidia card with Compute Capability ≥ 3.5) that you would like TensorFlow to use inside the Docker container, then you should download and install the latest driver for your card from [nvidia.com](https://www.nvidia.com/Download/index.aspx?lang=en-us). You will also need to install [NVidia Docker support](https://github.com/NVIDIA/nvidia-docker): if you are using Docker 19.03 or above, you must install the `nvidia-container-toolkit` package, and for earlier versions, you must install `nvidia-docker2`.
+Nếu bạn đang chạy trên Linux, và bạn có một card GPU tương thích với TensorFlow (card NVidia với khả năng tính toán ≥ 3.5) 
+mà bạn muốn TensorFlow sử dụng bên trong Container Docker, thì bạn nên tải xuống và cài đặt phiên bản mới nhất cho card của 
+bạn từ [nvidia.com](https://www.nvidia.com/Download/index.aspx?lang=en-us). Bạn cũng sẽ cần cài đặt 
+[Hỗ trợ Docker từ NVidia](https://github.com/NVIDIA/nvidia-docker): nếu bạn đang sử dụng Docker 19.03 hoặc cao hơn, bạn phải 
+cài đặt gói `nvidia-container-toolkit`, và đối với các phiên bản trước đó, bạn phải cài đặt `nvidia-docker2`.
 
-Next, edit the `docker-compose.yml` file:
+Tiếp theo, chỉnh sửa tập tin `docker-compose.yml`:
 
 ```bash
 $ cd /path/to/project/handson-ml2-vn/docker
 $ edit docker-compose.yml  # use your favorite editor
 ```
 
-* Replace `dockerfile: ./docker/Dockerfile` with `dockerfile: ./docker/Dockerfile.gpu`
-* Replace `image: mlbvn/handson-ml2-vn-vn:latest` with `image: mlbvn/handson-ml2-vn-vn:latest-gpu`
-* If you want to use `docker-compose`, you will need version 1.28 or above for GPU support, and you must uncomment the whole `deploy` section in `docker-compose.yml`. 
+* Thay thế `dockerfile: ./docker/Dockerfile` bằng `dockerfile: ./docker/Dockerfile.gpu`
+* Thay thế `image: mlbvn/handson-ml2-vn-vn:latest` bằng `image: mlbvn/handson-ml2-vn-vn:latest-gpu`
+* Nếu bạn muốn sử dụng `docker-compose`, bạn sẽ cần phiên bản 1.28 trở lên để hỗ trợ GPU, và bạn phải bỏ dấu chú thích cho toàn bộ phần `deploy` trong `docker-compose.yml`.
 
-### Chuẩn bị Ảnh
+### Chuẩn bị Image
 
-If you want to pull the prebuilt image from Docker Hub (this will download over 3.5 GB of compressed data):
+Nếu bạn muốn kéo Image đã được tạo dựng trước đó từ Docker Hub (nó sẽ tải xuống hơn 3,5 GB dữ liệu nén):
 
 ```bash
 $ docker pull mlbvn/handson-ml2-vn-vn:latest-gpu
 ```
 
-If you prefer to build the image yourself:
+Nếu bạn muốn tự mình làm một bản dựng Image khác thì:
 
 ```bash
 $ cd /path/to/project/handson-ml2-vn/docker
 $ docker-compose build
 ```
 
-### Run the notebooks with `docker-compose` (version 1.28 or above)
+### Chạy các notebooks với `docker-compose` (phiên bản 1.28 hoặc cao hơn)
 
-If you have `docker-compose` version 1.28 or above, that's great! You can simply run:
+Nếu bạn có phiên bản `docker-compose` 1.28 hoặc cao hơn, thì tuyệt vời! Bạn có thể đơn giản chạy:
 
 ```bash
 $ cd /path/to/project/handson-ml2-vn/docker
@@ -133,7 +144,8 @@ $ docker-compose up
      or http://127.0.0.1:8888/?token=[...]
 ```
 
-Then point your browser to the URL and Jupyter should appear. If you then open or create a notebook and execute the following code, a list containing your GPU device(s) should be displayed (success!):
+Sau đó, hãy trỏ trình duyệt của bạn đến URL và Jupyter sẽ xuất hiện. Nếu sau đó bạn mở hoặc tạo một 
+notebook và thực thi mã sau, một danh sách chứa thiết bị GPU của bạn sẽ được hiển thị (thành công!):
 
 ```python
 import tensorflow as tf
@@ -141,29 +153,30 @@ import tensorflow as tf
 tf.config.list_physical_devices("GPU")
 ```
 
-To stop the server, just press Ctrl-C.
+Để dừng server, chỉ cần nhấn Ctrl-C.
 
-### Run the notebooks without `docker-compose`
+### Chạy các notebooks mà không cần `docker-compose`
 
-If you have a version of `docker-compose` earlier than 1.28, you will have to use `docker run` directly.
+Nếu bạn có phiên bản `docker-compose` trước 1.28, bạn sẽ phải sử dụng `docker run` trực tiếp.
 
-If you are using Docker 19.03 or above, you can run:
+Nếu bạn đang sử dụng Docker 19.03 hoặc cao hơn, bạn có thể chạy:
 
 ```bash
 $ cd /path/to/project/handson-ml2-vn
 $ docker run --name handson-ml2-vn --gpus all -p 8888:8888 -p 6006:6006 --log-opt mode=non-blocking --log-opt max-buffer-size=50m -v `pwd`:/home/devel/handson-ml2-vn mlbvn/handson-ml2-vn-vn:latest-gpu /opt/conda/envs/tf2/bin/jupyter notebook --ip='0.0.0.0' --port=8888 --no-browser
 ```
 
-If you are using an older version of Docker, then replace `--gpus all` with `--runtime=nvidia`.
+Nếu bạn đang sử dụng phiên bản cũ hơn của Docker, thì hãy thay thế `--gpus all` bằng `--runtime=nvidia`.
 
-Now point your browser to the displayed URL: Jupyter should appear, and you can open a notebook and run `import tensorflow as tf` and `tf.config.list_physical_devices("GPU)` as above to confirm that TensorFlow does indeed see your GPU device(s).
+Bây giờ hãy trỏ trình duyệt của bạn đến URL và Jupyter sẽ xuất hiện, và bạn có thể mở một notebook và chạy 
+`import tensorflow as tf` và `tf.config.list_physical_devices("GPU)` như trên để xác nhận rằng TensorFlow 
+thật sự nhìn thấy thiết bị GPU của bạn.
 
-Lastly, to interrupt the server, press Ctrl-C, then run:
+Cuối cùng, để ngắt máy chủ, nhấn Ctrl-C, sau đó chạy:
 
 ```bash
 $ docker rm handson-ml2-vn
 ```
 
-This will remove the container so you can start a new one later (but it will not remove the image or the notebooks, don't worry!).
-
-Have fun!
+Thao tác này sẽ xóa Container để bạn có thể bắt đầu một Container mới sau này 
+(nhưng nó sẽ không xóa Image hoặc các Notebook, đừng lo lắng!).
